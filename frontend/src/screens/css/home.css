@@ -1,0 +1,32 @@
+.home_sec {
+    padding: 3.5rem 0 0 0;
+    overflow-x: hidden;
+    background-image: url('../../../src/components/images/hero-page-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.costum_home_sec {
+    height: 100%;
+}
+
+/* media Query */
+@media (max-width: 768px) {
+    .home_sec {
+        padding: 0.5rem 0 0 0;
+        background-size: auto;
+        background-position: left;
+        background-repeat-y: initial;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .home_sec {
+        background-size: auto;
+        background-position: top;
+        background-repeat-y: initial;
+    }
+
+}

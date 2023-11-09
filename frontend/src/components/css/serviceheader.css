@@ -1,0 +1,37 @@
+.services-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .services-heading {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-heading {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .services-heading {
+        font-size: x-large;
+    }
+
+    .service-sub-heading-para {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .services-heading {
+        font-size: 1.2em;
+    }
+
+    .service-sub-heading-para {
+        font-size: x-small;
+    }
+}

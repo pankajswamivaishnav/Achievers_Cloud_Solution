@@ -1,0 +1,42 @@
+.blog_sec {
+    /* margin: 5rem 0; */
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    padding: 5rem 0;
+    color: white;
+}
+
+.costum-btn {
+    width: 12em;
+    height: 3.5em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-width: 0.15em;
+    margin-top: 1em;
+}
+
+.costum-btn a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.costum-btn:hover a {
+    color: white;
+}
+
+.blog-header {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+}
+
+.blog-header-title {
+    letter-spacing: var(--special_letter_spacing);
+    font-size: 3.5em;
+}
+
+@media screen and (max-width: 576px) {
+    .blog-header-title {
+        font-size: 2.5em;
+    }
+}

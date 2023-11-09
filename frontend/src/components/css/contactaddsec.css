@@ -1,0 +1,75 @@
+.contact-add-sec {
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.contact-addsec-img {
+    height: 20px !important;
+}
+
+.costum-contact-icons {
+    height: 1rem !important;
+}
+
+.costum-contact-add-sec-para a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.costum-contact-add-sec-para {
+    font-size: larger;
+}
+
+.costum-contact-add-sec-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-add-sec-img {
+    height: 70vh;
+}
+
+.contact-add-sec-heading {
+    padding: 5rem 0;
+    font-weight: bold;
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.contact-add-sec-heading:hover {
+    color: var(--special_text_color);
+}
+
+@media screen and (max-width:576px) {
+    .costum-contact-addsec-rightpart {
+        margin-top: 3em;
+    }
+
+    .contact-add-sec {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .contact-add-sec-heading {
+        padding: 2rem 0;
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .contact-add-sec-img {
+        height: 40vh;
+    }
+
+    .costum-contact-add-sec-para {
+        font-size: small;
+    }
+
+    .costum-contact-add-sec-number {
+        font-size: x-large;
+    }
+
+}

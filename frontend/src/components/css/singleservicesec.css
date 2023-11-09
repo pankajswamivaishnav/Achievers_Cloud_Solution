@@ -1,0 +1,68 @@
+.list-services-single-page {
+    background-color: rgb(85, 113, 133);
+    color: white;
+    padding: 1em;
+    width: 100%;
+    border-radius: 4px;
+    margin: 0.5em 0;
+}
+
+.list-services-single-page:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.service-detail-single-page img {
+    width: 100vw;
+}
+
+.list-services-single-page a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-services-heading-single-page {
+    color: black;
+    font-weight: bold;
+}
+
+.service-detail-single-page {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.service-detail-single-page p {
+    text-align: justify;
+}
+
+.service-detail-single-page-points {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.costum-list-container {
+    background-color: #bdf3f8;
+    padding: 4rem 2.5rem;
+    margin-top: 1.5em;
+}
+
+.single-service-sec {
+    padding: 1rem 0 3em 0;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.single-service-left-box {
+    /* overflow-y: auto; */
+    /* max-height: 100vh; */
+}
+
+/* Hide scrollbar */
+/* .single-service-left-box::-webkit-scrollbar {
+    width: 0;
+} */
+
+.single-service-right-box {
+    overflow-y: hidden;
+    max-height: 100vh;
+}

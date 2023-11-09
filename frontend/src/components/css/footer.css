@@ -1,0 +1,47 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0) !important;
+    width: 100%;
+    color: #fff !important;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    z-index: 100;
+    /* Use z-index to ensure the footer is on top */
+}
+
+.costum-footer-sec {
+    background-image: url('../images/footer-bg.png');
+    background-size: cover;
+    background-position: bottom;
+    /* background-color: #09aff4; */
+}
+
+.footer-logo {
+    margin-top: -1.5em;
+}
+
+.footer-social-icon {
+    height: 2.4em;
+    width: 2.7em;
+
+}
+
+.developer-name {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.developer-name:hover {
+    color: #09aff4;
+}
+
+/* Adjust the position for small screens */
+@media (max-width: 768px) {
+    .footer {
+        position: relative;
+    }
+}

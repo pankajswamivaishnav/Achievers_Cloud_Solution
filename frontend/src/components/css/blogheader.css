@@ -1,0 +1,41 @@
+.blog-main-header {
+    background-image: url('../images/about-us-bg.png');
+    background-size: cover;
+    background-position: top;
+    color: white;
+
+}
+
+.main-div {
+    height: 50vh;
+}
+
+.parent-heading {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog-path {
+    font-weight: bold;
+}
+
+.blog-path:hover i,
+.blog-path:hover span {
+    cursor: pointer;
+    color: var(--special_text_color);
+    /* Change the color on hover */
+}
+
+@media screen and (max-width: 420px) {
+    .blog-heading {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,116 @@
+.wave-underline {
+    position: relative;
+    text-decoration: none;
+    color: #09aff4;
+    /* Text color */
+    font-weight: bold;
+    /* Text style */
+}
+
+.wave-underline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    /* Underline ki niche ki positioning */
+    border-bottom: 3px solid #09aff4;
+    /* Wave-style underline ki color aur thickness */
+    transform: skewX(-15deg);
+    /* Underline ko wave-style design dene ke liye skew transformation */
+    transform-origin: 0% 100%;
+    /* Skew transformation ka origin bottom left rakhe */
+}
+
+.costum-btn {
+    width: 12em;
+    height: 3.5em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-width: 0.15em;
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    border-color: #09aff4;
+    background-color: #09aff4;
+}
+
+.costum-btn:hover {
+    color: white;
+
+}
+
+.hero_sec {
+    height: auto;
+    margin: 6rem 0;
+    padding: 6rem 0 0 0;
+    color: white;
+}
+
+.costum-hero-page-container {
+    background-color: rgba(255, 255, 255, 0);
+    /* Fully transparent background */
+}
+
+.special_text_color {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+
+}
+
+.image-container {
+
+    position: relative;
+}
+
+
+.image-container img {
+    width: 110%;
+    transform: scale(1.4);
+    /* Increase the size by 10% to make it larger */
+    position: relative;
+    /* Move the image 20 pixels upward to overlay slightly */
+    transition: transform 1s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+.image-container:hover img {
+    transform: scale(1.5);
+    /* Zoom the image on hover */
+    cursor: pointer;
+    /* Adjust the overlay position on hover */
+}
+
+/* .costum-btn-page-hero {
+    width: 195px;
+} */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .image-container {
+        margin-top: 2em;
+    }
+
+    .image-container img {
+        transform: scale(0.9);
+        margin-top: -1.5em;
+    }
+
+    .hero_sec {
+        margin: 1em 0;
+    }
+
+    .image-container:hover img {
+        transform: scale(1);
+        /* Zoom the image on hover */
+        cursor: pointer;
+        /* Adjust the overlay position on hover */
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .costum-page-hero-title {
+        font-size: 1.3rem !important;
+    }
+}

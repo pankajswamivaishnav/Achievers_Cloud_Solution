@@ -1,0 +1,43 @@
+.journey-year {
+    width: 7em;
+    height: 7em;
+    border: 0.5em solid lightblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.8em;
+}
+
+.journey-year p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.journey-para {
+    line-height: 2em;
+    font-weight: 400;
+    font-size: larger;
+    /* text-align: justify; */
+}
+
+
+@media (max-width: 768px) {
+    .costum-journey-row {
+        border-bottom: 2px solid black;
+        padding-bottom: 0.5em;
+    }
+}
+
+/* Custom CSS for small screens */
+@media (max-width: 576px) {
+    .col-xs-8 {
+        width: 60%;
+        /* 2/3 of the width */
+    }
+
+    .col-xs-4 {
+        width: 40%;
+        /* 1/3 of the width */
+    }
+}

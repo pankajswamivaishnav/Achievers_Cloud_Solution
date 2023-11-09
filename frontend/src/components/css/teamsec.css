@@ -1,0 +1,34 @@
+.about_team_sec {
+    padding: 3rem 0 5em 0;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.about-team-heading {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+}
+
+.about-team-heading-para {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .about-team-heading-para {
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-team-heading-para {
+        font-size: 2.0em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-team-heading-para {
+        font-size: 1.5em;
+    }
+}

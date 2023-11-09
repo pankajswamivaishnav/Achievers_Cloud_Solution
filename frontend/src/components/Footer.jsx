@@ -1,0 +1,195 @@
+import React from "react";
+import "./css/footer.css";
+import companyLogo from "./images/achiever-logo.png";
+const Footer = () => {
+  return (
+    <section className="costum-footer-sec">
+      <section className="footer_sec">
+        {/* Footer */}
+        <div className="container ">
+          <footer className="text-center text-lg-start bg-light text-muted footer">
+            {/* Section: Social media */}
+            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              {/* Left */}
+              <div className="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              {/* Left */}
+              {/* Right */}
+              <div>
+                {/* Section: Social media */}
+                <section>
+                  {/* Facebook */}
+
+                  <a
+                    className="btn text-white btn-floating m-1 footer-social-icon"
+                    style={{ backgroundColor: "#1877f2" }}
+                    href="#!"
+                    role="button"
+                  >
+                    <i className="fab fa-facebook fa-lg" />
+                  </a>
+                  {/* Twitter */}
+                  <a
+                    className="btn text-white btn-floating m-1 footer-social-icon"
+                    // style={{ backgroundColor: "#55acee" }}
+                    style={{ backgroundColor: "#fff" }}
+                    href="#!"
+                    role="button"
+                  >
+                    {/* <i className="fab fa-twitter" /> */}
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/450px-X_logo_2023_original.svg.png"
+                      alt="x"
+                      className="img-fluid"
+                    />
+                  </a>
+                  {/* Instagram */}
+                  <a
+                    className="btn text-white btn-floating m-1 footer-social-icon"
+                    style={{
+                      background:
+                        "-webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)",
+
+                      filter:
+                        "progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) ",
+                    }}
+                    href="#!"
+                    role="button"
+                  >
+                    <i className="fab fa-instagram fa-lg" />
+                  </a>
+                  {/* Linkedin */}
+                  <a
+                    className="btn text-white btn-floating m-1 footer-social-icon"
+                    style={{ backgroundColor: "rgb(10, 102, 194)" }}
+                    href="#!"
+                    role="button"
+                  >
+                    <i className="fab fa-linkedin-in fa-lg" />
+                  </a>
+                </section>
+                {/* Section: Social media */}
+              </div>
+              {/* Right */}
+            </section>
+            {/* Section: Social media */}
+            {/* Section: Links  */}
+            <section className>
+              <div className="container text-center text-md-start mt-5">
+                {/* Grid row */}
+                <div className="row mt-3">
+                  {/* Grid column */}
+                  <div className="col-md-3 col-lg-4 mt-3 col-xl-3 mx-auto mb-4">
+                    {/* Content */}
+                    <div className="footer-logo">
+                      <img src={companyLogo} alt="Achiever Cloud Solution" />
+                    </div>
+                    {/* <h6 className="text-uppercase fw-bold mb-4">
+                      <i className="fas fa-gem me-3" />
+                      Achiever Cloud IT Solution
+                    </h6> */}
+                    <p className="mt-4">
+                      Here you can use rows and columns to organize your footer
+                      content. Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit.
+                    </p>
+                  </div>
+                  {/* Grid column */}
+                  {/* Grid column */}
+                  <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    {/* Links */}
+                    <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Angular
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        React
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Vue
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Laravel
+                      </a>
+                    </p>
+                  </div>
+                  {/* Grid column */}
+                  {/* Grid column */}
+                  <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    {/* Links */}
+                    <h6 className="text-uppercase fw-bold mb-4">
+                      Useful links
+                    </h6>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Pricing
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Settings
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Orders
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset text-decoration-none">
+                        Help
+                      </a>
+                    </p>
+                  </div>
+                  {/* Grid column */}
+                  {/* Grid column */}
+                  <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    {/* Links */}
+                    <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>
+                      <i className="fas fa-home me-3" /> New York, NY 10012, US
+                    </p>
+                    <p>
+                      <i className="fas fa-envelope me-3" />
+                      info@example.com
+                    </p>
+                    <p>
+                      <i className="fas fa-phone me-3" /> + 01 234 567 88
+                    </p>
+                    <p>
+                      <i className="fas fa-print me-3" /> + 01 234 567 89
+                    </p>
+                  </div>
+                  {/* Grid column */}
+                </div>
+                {/* Grid row */}
+              </div>
+            </section>
+            {/* Section: Links  */}
+            {/* Copyright */}
+            <div className="text-center p-4">
+              Created By : &nbsp;
+              <a
+                className="text-resetfw-bold developer-name"
+                href="https://www.linkedin.com/in/pankaj-swami-vaishnav/"
+              >
+                Pankaj Swami Vaishnav
+              </a>
+            </div>
+            {/* Copyright */}
+          </footer>
+        </div>
+        {/* Footer */}
+      </section>
+    </section>
+  );
+};
+export default Footer;

@@ -1,0 +1,53 @@
+.page_404 {
+    background-color: black;
+}
+
+.costum-error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.costum-error-page-container {
+    padding: 6.1rem 0;
+}
+
+.costum-error-page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.costum-error-page-details h1 {
+    color: white;
+}
+
+.costum-error-page-details button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    box-shadow: 0 5px #1e272e;
+    padding-top: 1rem;
+}
+
+.costum-error-page-details button:hover {
+    background-color: aqua;
+    box-shadow: 0 5px #06dd31;
+}
+
+@media screen and (max-width: 1200px) {
+    .costum-error-page {
+        padding: 3rem 0 3rem 0;
+    }
+
+    .costum-error-page1 {
+        padding: 3rem 0 0 0;
+    }
+
+    .costum-error-page-container {
+        padding: 0 0;
+    }
+}

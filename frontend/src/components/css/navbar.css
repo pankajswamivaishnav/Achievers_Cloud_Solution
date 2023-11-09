@@ -1,0 +1,113 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* height: 6rem; */
+    padding: 1.5rem 0;
+}
+
+.costum-nav li a {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.costum-nav-item-link {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+
+.navbar_sec {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.logo-div {
+    width: 12rem;
+}
+
+.scrolled {
+    /* background-color: #09aff4 !important; */
+    background-color: #09aff4 !important;
+
+    .nav-link:hover {
+        color: #1a21fa;
+    }
+
+
+    /* Additional styles for the scrolled navbar */
+}
+
+/* .costum-navbar-container {
+    background-color: #09a2f4a0;
+} */
+
+.costum-navbar-toggler {
+    background-color: white;
+}
+
+.search-btn-navbar {
+    height: 2.5em;
+    width: 6em;
+}
+
+.costum-dropdown-item:hover {
+    /* background-color: rgb(237, 67, 67); */
+    background-color: rgb(35, 35, 77);
+    color: white !important;
+}
+
+.costum-dropdown-item {
+    margin: 0.5em 0;
+    color: white !important;
+}
+
+.nav-link:focus {
+    color: #fff;
+}
+
+
+.costum-dropdown-menu {
+    /* margin-top: 0.5em !important; */
+    background-color: #09aff4;
+    border: none;
+}
+
+.costum-navbar-toggler .navbar-toggler-icon {
+    background-color: #fff;
+    /* White background */
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        /* background-color: #e1b035a0 !important; */
+        background-color: #09aff4 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .costum-nav {
+        padding-top: 1.5em;
+    }
+
+    .costum-nav-main-div {
+        background-color: #09aff4 !important;
+    }
+}
+
+.costum-expand-nav {
+    width: 10em !important;
+}

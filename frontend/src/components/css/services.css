@@ -1,0 +1,73 @@
+.card-custom-body {
+    margin-top: -1.3em;
+}
+
+.card-costum-title {
+    font-size: 3.5em;
+}
+
+.service-icon i {
+    padding-bottom: 1.4em;
+}
+
+.service-box {
+    /* border-radius: 1em; */
+    transition: background-color 0.3s ease;
+}
+
+.costum-services-header {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+}
+
+.services_sec {
+    /* padding: -2rem 0 0 0; */
+    margin-top: -1.5rem;
+    overflow-x: hidden;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.costum-service-header {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* .service-box:hover {
+    color: white;
+    background-color: #09aff4;
+    animation: colorChange 1s ease-in-out;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #ffffff;
+    }
+
+    100% {
+
+        background-color: #09aff4;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+    .services_sec {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .card-costum-title {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-costum-title {
+        font-size: 1.5em;
+    }
+
+    .services_sec_btn_all_services {
+        margin-left: 1em;
+    }
+}

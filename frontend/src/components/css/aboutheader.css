@@ -1,0 +1,49 @@
+.about-header {
+    background-image: url('../images/about-us-bg.png');
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.main-div {
+    /* background-color: rgba(43, 35, 158, 0.5); */
+    margin-top: -3.8rem;
+    padding: 13rem 0 5rem 0;
+    height: 100%;
+}
+
+.costum-about-us-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.costum-about-us-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.costum-about-us-img-container img {
+    height: 15em;
+}
+
+@media (max-width: 576px) {
+
+    /* CSS for screens 576px or less */
+    .costum-about-us-header-container {
+        margin-bottom: 5em;
+
+    }
+}
+
+@media (max-width:768px) {
+
+    /* CSS for screens 576px or less */
+    .costum-about-us-header-container {
+        /* margin-bottom: 5em; */
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,37 @@
+.who-we-are-sec {
+    background-color: rgb(19, 17, 41);
+    color: white;
+    padding-top: 2em;
+}
+
+.who-we-are-img {
+    border: 3px solid white;
+    border-radius: 1.5em 0 1.5em 0;
+}
+
+
+
+.costum-who-we-are-row {
+    padding-top: 1rem;
+}
+
+.who-we-are-heading {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.who-we-are-para {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 420px) {
+    .who-we-are-heading {
+        font-size: 1.5em;
+    }
+
+    .who-we-are-sec {
+        padding: 0;
+    }
+
+}

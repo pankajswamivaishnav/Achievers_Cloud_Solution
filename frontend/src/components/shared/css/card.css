@@ -1,0 +1,49 @@
+.blog_author i {
+    color: var(--special_text_color);
+}
+
+.blog_author:hover {
+    cursor: pointer;
+    color: var(--special_text_color);
+}
+
+.blog_author span {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.costum-card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.costum-card-title:hover {
+    color: var(--special_text_color);
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+#card_read_more span {
+    font-weight: bold;
+    font-size: larger;
+    color: #09aff4;
+}
+
+#card_read_more {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.costum-card {
+    border-radius: 0.1em;
+    margin-top: 2em;
+}
+
+.costum-blog-card-body {
+    background-color: rgba(9, 56, 95, 0.5) !important;
+}
+
+@media screen and (max-width: 768px) {}

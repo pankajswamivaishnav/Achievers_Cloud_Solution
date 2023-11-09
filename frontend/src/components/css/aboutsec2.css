@@ -1,0 +1,54 @@
+.about-sec2-heading {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.about-sec2-para {
+    font-size: larger;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.journey-sec {
+    margin-left: 3em;
+    padding: 1em 0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #031255;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.joruney-heading {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    width: 7em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-sec2 {
+    padding: 3rem 0 0 0;
+}
+
+.about-costum-sec {
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .journey-sec {
+        margin-left: 0em;
+        padding: 0em;
+    }
+
+    .about-sec2 {
+        padding: 1em 0 0 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-sec2-heading {
+        font-size: 2.5em;
+    }
+}

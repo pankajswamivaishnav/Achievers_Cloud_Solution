@@ -1,0 +1,92 @@
+.points {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--special_text_color);
+}
+
+.why_sec {
+    /* margin: 5rem 0; */
+    background-color: rgb(19, 17, 41);
+    padding: 5rem 0;
+    color: white;
+}
+
+.costum-why-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.costum-why-img-container img {
+    margin-right: 1em;
+    /* border: 3px solid white;
+    border-radius: 0 2em 0 2em; */
+    padding: 3rem 2rem 3rem 0;
+    transform: scale(1);
+}
+
+.costum-why-img-container img:hover {
+    transform: scale(1.1);
+}
+
+.costum-service-header {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.special_text_color {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+    .costum-why-img-container img {
+        margin-left: -4em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .costum-why-img-container img {
+        margin-left: 1em;
+        margin-top: -5em;
+        margin-bottom: 3em;
+        transform: scale(0.6);
+
+    }
+
+    .costum-why-img-container img:hover {
+        margin-left: 1em;
+        margin-top: -5em;
+        margin-bottom: 3em;
+        transform: scale(0.7);
+    }
+
+    .costum-why-row {
+        display: flex;
+        flex-direction: column;
+        /* Stack columns vertically on smaller screens */
+    }
+
+    /* Reorder the columns using the order property */
+    .costum-why-img-container {
+        order: 2;
+        /* Make the left column order 2 on smaller screens */
+    }
+
+    .costum-why-right-part {
+        order: 1;
+        /* Make the right column order 1 on smaller screens */
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .costum-why-img-container img {
+        margin-left: 1em;
+        margin-top: -5em;
+        margin-bottom: 3em;
+        /* transform: scale(1.5); */
+    }
+}

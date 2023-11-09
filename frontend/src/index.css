@@ -1,0 +1,26 @@
+body {
+    /* padding-top: 60px;
+    overflow-x: hidden;
+    background-image: url('./components/images/hero-page-bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+button a {
+    color: inherit;
+    /* Inherit the color from the parent element */
+    text-decoration: none;
+    /* Remove text decoration (e.g., underline) */
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+:root {
+    --special_text_color: #09aff4;
+    --special_letter_spacing: 0.15rem;
+}

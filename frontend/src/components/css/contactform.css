@@ -1,0 +1,111 @@
+.costum-contact-form {
+    background-color: rgb(19, 17, 41);
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.acs-map {
+    border: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+.costum-contactform-row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0 0 0;
+    color: white;
+}
+
+.costum-contactform-row1 h1 {
+    font-size: 3.5em;
+}
+
+.costum-contactform-row2 {
+    padding: 2rem 0;
+}
+
+.costum-form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.costum-form-input input {
+    height: 3em;
+}
+
+.costum-form-input input:focus {
+    outline: none;
+    background-color: rgb(19, 17, 41);
+}
+
+.costum-form-input input:focus,
+textarea:focus {
+    border-color: aqua;
+}
+
+.costum-form-input input,
+textarea {
+    border: 0.5px solid rgb(99, 96, 96);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0 0.5em;
+}
+
+.costum-form-input textarea:focus {
+    outline: 0.5px solid rgb(5, 247, 255);
+}
+
+.costum-form-input label {
+    margin: 0.7em 0 0.3em 0;
+    font-weight: bold;
+}
+
+.contact-form-submit-btn {
+    width: 12em;
+    height: 3.5em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-width: 0.15em;
+    margin-top: 1em;
+}
+
+.contact-form-map-heading:hover {
+    color: var(--special_text_color);
+    cursor: pointer;
+}
+
+.contact-form-heading:hover {
+    color: var(--special_text_color);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .costum-contactform-row1 h1 {
+        font-size: 2.5em;
+    }
+
+    .costum-contactform-row2 h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .costum-contactform-row1 h1 {
+        font-size: 2.0em;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .costum-contactform-row1 h1 {
+        font-size: large;
+    }
+
+    .acs-map {
+        height: 35vh;
+    }
+
+}

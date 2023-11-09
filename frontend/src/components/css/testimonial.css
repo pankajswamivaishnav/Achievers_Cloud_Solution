@@ -1,0 +1,47 @@
+.testimonial_sec {
+    color: white;
+    background-image: url('../images/testimonial-bg.jpg');
+    background-size: cover;
+    /* This scales the image to cover the entire background */
+    background-attachment: fixed;
+    /* This makes the background image fixed */
+    background-repeat: no-repeat;
+}
+
+.costum-testimonial {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0 2rem 0;
+}
+
+.costum-carousel {
+    cursor: pointer;
+}
+
+.costum-testimonial_para {
+    color: white !important;
+}
+
+.special_text_color {
+    color: var(--special_text_color);
+    letter-spacing: var(--special_letter_spacing);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonial_sec {
+        margin-top: -18rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial_sec {
+        margin-top: -10rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .testimonial_sec {
+        background-position: bottom;
+    }
+
+}

@@ -1,0 +1,87 @@
+#card_read_more span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.fa-costum-color {
+    color: #09aff4;
+}
+
+.main-service-card-div {
+    position: relative;
+}
+
+
+.service-box {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #09aff4;
+    border-radius: 0.5em;
+
+    /* background: #007bff; */
+    /* Initial background color (blue) */
+    transition: background 0.3s;
+    /* Transition the background property */
+}
+
+.service-content i {
+    color: #09aff4;
+}
+
+.service-box:hover .service-content i {
+    color: white;
+}
+
+.service-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #09aff4;
+    /* Color to transition to (sky blue) */
+    transform-origin: 0% 0;
+    transform: scaleX(0);
+    /* Start with no width */
+    transition: transform 1s;
+    /* Transition the transform property */
+}
+
+.service-box:hover::before {
+    transform: scaleX(1);
+    /* Fully expand to 100% width on hover */
+}
+
+.service-box:hover {
+    color: white;
+}
+
+.service-content {
+    position: relative;
+    z-index: 1;
+    /* Ensure content is on top of the pseudo-element */
+}
+
+/* @keyframes colorChange {
+    0% {
+        background-color: #ffffff;
+    }
+
+    100% {
+
+        background-color: #09aff4;
+    }
+} */
+
+.service-box:hover #card_read_more span,
+.service-box:hover #card_read_more i {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .service-content h3 {
+        font-size: 1.5rem;
+    }
+}
