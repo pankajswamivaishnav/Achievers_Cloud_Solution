@@ -25,11 +25,7 @@ const PageHero = () => {
                     the card title and make up title and mak Make Up.
                   </p>
                   <a href="/contact-us" className="btn-link">
-                    <button
-                      to="/contact-us"
-                      type="button"
-                      className="costum-btn"
-                    >
+                    <button type="button" className="costum-btn">
                       Get In Touch
                     </button>
                   </a>

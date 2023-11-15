@@ -1,5 +1,5 @@
 // const User = require("../models/User");
-const nodemailer = require("nodemailer");
+// const nodemailer = require("nodemailer");
 
 // Methods Has Been Start
 // const sendUser = async (req, res) => {
@@ -22,37 +22,40 @@ const nodemailer = require("nodemailer");
 //   }
 // };
 
-const sendUser = async (req, res) => {
-  let { name, email, subject, message } = req.body;
-  console.log(name, email, subject, message);
-  try {
-    var transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
-      },
-    });
+// const sendUser = async (req, res) => {
+//   let { name, email, subject, message } = req.body;
+//   console.log(name, email, subject, message);
+//   try {
+//     var transporter = nodemailer.createTransport({
+//       service: "gmail",
+//       auth: {
+//         user: process.env.EMAIL,
+//         pass: process.env.PASSWORD,
+//       },
+//     });
 
-    var mailOptions = {
-      from: email,
-      to: process.env.EMAIL,
-      subject: subject,
-      text: message,
-    };
+//     var mailOptions = {
+//       from: email,
+//       to: process.env.EMAIL,
+//       subject: subject,
+//       text: message,
+//     };
 
-    transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        console.log("not sending properly", error);
-      } else {
-        console.log("Email sent: " + info.response);
-        // do something useful
-      }
-    });
-  } catch (err) {
-    console.log("i am catch err", err);
-  }
-};
+//     transporter.sendMail(mailOptions, function (error, info) {
+//       if (error) {
+//         console.log("not sending properly", error);
+//         res.status(500).send("Error sending email");
+//       } else {
+//         res.send("Send Mail Successfully");
+//         console.log("Email sent: " + info.response);
+//         // do something useful
+//       }
+//     });
+//   } catch (err) {
+//     console.log("backend catch error", err);
+//     res.status(500).send("Error");
+//   }
+// };
 
 // Export Method
-module.exports = sendUser;
+// module.exports = sendUser;

@@ -1,27 +1,27 @@
-const express = require("express");
-const app = express();
-const path = require("path");
-var cors = require("cors");
-require("dotenv").config();
-// Port
-const port = process.env.PORT || 8000;
+// const express = require("express");
+// const app = express();
+// const path = require("path");
+// var cors = require("cors");
+// require("dotenv").config();
+// // Port
+// const port = process.env.PORT || 8000;
 
-// Route Defined
-const userRoute = require("./routes/userRoutes");
-// Database Connection
-require("./db/conn");
+// // Route Defined
+// const userRoute = require("./routes/userRoutes");
+// // Database Connection
+// require("./db/conn");
 
-// Middleware & Routes
-app.use(cors());
-app.use(express.json());
-app.use(userRoute);
+// // Middleware & Routes
+// app.use(cors());
+// app.use(express.json());
+// app.use(userRoute);
 
-// static Files
-app.use(express.static(path.join(__dirname, "../frontend/build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
-});
+// // static Files
+// app.use(express.static(path.join(__dirname, "../frontend/build")));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
+// });
 
-app.listen(port, (req, res) => {
-  console.log(`I am listening on ${port}`);
-});
+// app.listen(port, (req, res) => {
+//   console.log(`I am listening on ${port}`);
+// });

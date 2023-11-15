@@ -15,13 +15,17 @@ const TeamSec = () => {
                 Our Experts Team Members
               </p>
             </div>
+
             <div className="col-xl-4 col-md-12 col-sm-12">
-              <button
-                type="button"
-                className="btn btn-outline costum-btn float-xl-end float-md-start"
-              >
-                <a href="/"> See More </a>
-              </button>
+              <a href="/contact-us" className="btn-link">
+                <button
+                  to="/contact-us"
+                  type="button"
+                  className="costum-btn float-xl-end float-md-start"
+                >
+                  See More
+                </button>
+              </a>
             </div>
           </div>
           {/* Team Card Block */}
