@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+.contact-sec-content {
+    color: rgb(223, 213, 213);
+}
+
 @media screen and (max-width: 768px) {
     .contactsec-sub-heading {
         font-size: 1.5em;

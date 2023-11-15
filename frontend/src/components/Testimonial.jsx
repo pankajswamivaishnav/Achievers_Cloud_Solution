@@ -8,8 +8,12 @@ const Testimonial = () => {
       <div className="container-fluid costum-testimonial">
         <div className="container">
           <div className="m-5">
-            <h5 className="text-center special_text_color">TESTIMONIALS</h5>
-            <h1 className="text-center">Customers Testimonials</h1>
+            <h5 className="text-center special_text_color same-property-sub-heading-page-hero">
+              TESTIMONIALS
+            </h5>
+            <h2 className=" text-center costum-page-testimonial-title">
+              Customers Testimonials
+            </h2>
           </div>
           <div className="costum-carousel">
             {/* Carousel wrapper */}

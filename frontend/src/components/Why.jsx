@@ -14,16 +14,16 @@ const Why = () => {
             {/* Info Right Part */}
             <div className="col-xl-7 col-sm-12 costum-why-right-part">
               <div className="card border-0 costum-service-header">
-                <div className="card-header fs-4 border-0 bg-transparent special_text_color">
+                <div className="card-header fs-4 border-0 bg-transparent special_text_color ">
                   WHY CHOOSE US
                 </div>
                 <div className="card-body card-custom-body">
-                  <h3 className="card-title card-costum-title">
+                  <h3 className="card-title card-costum-title costum-page-why-title">
                     Why Our Customers Choose
                     <span className="wave-underline"> Working </span>
                     With Us
                   </h3>
-                  <p className="card-text">
+                  <p className="card-text costum-hero-page-para">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content the card title and make up
                     the card title and make up title and mak Make Up.
@@ -37,7 +37,7 @@ const Why = () => {
                 </div>
                 <div className="col-xl-10 col-sm-12">
                   <h3>Latest Technologies</h3>
-                  <p>
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
                     quaerat voluptas blanditiis. quia.
@@ -51,7 +51,7 @@ const Why = () => {
                 </div>
                 <div className="col-xl-10 col-sm-12">
                   <h3>Uniqe Solutions</h3>
-                  <p>
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
                     quaerat voluptas blanditiis. quia.
@@ -65,7 +65,7 @@ const Why = () => {
                 </div>
                 <div className="col-xl-10 col-sm-12">
                   <h3>Powerful Stratgies</h3>
-                  <p>
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
                     quaerat voluptas blanditiis. quia.

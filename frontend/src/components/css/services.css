@@ -71,3 +71,18 @@
         margin-left: 1em;
     }
 }
+
+@media screen and (max-width: 370px) {
+
+    .same-property-sub-heading-page-hero {
+        font-size: large;
+        font-weight: bold !important;
+    }
+
+    .costum-page-service-title {
+        font-size: 2.3rem !important;
+        font-weight: bold;
+        letter-spacing: var(--special_letter_spacing);
+    }
+
+}

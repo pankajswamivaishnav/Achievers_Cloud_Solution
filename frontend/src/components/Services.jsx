@@ -18,14 +18,14 @@ const Services = () => {
         <div className="container">
           <div className="row py-4">
             <div className="card my-3 col-xl-6 col-sm-12 border-0 costum-service-header">
-              <div className="card-header fs-4 border-0 bg-transparent costum-services-header">
+              <div className="card-header fs-4 border-0 bg-transparent costum-services-header same-property-sub-heading-page-hero">
                 SERVICES
               </div>
               <div className="card-body card-custom-body">
-                <h3 className="card-title card-costum-title">
+                <h3 className="card-title card-costum-title costum-page-service-title">
                   Services We Offer
                 </h3>
-                <p className="card-text fs-5">
+                <p className=" fs-5 costum-hero-page-para">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>

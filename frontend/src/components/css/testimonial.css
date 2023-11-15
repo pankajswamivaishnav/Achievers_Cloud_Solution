@@ -27,21 +27,20 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 1200px) {
-    .testimonial_sec {
-        margin-top: -18rem;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .testimonial_sec {
-        margin-top: -10rem;
-    }
-}
 
 @media screen and (max-width: 576px) {
     .testimonial_sec {
         background-position: bottom;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .costum-page-testimonial-title {
+        font-size: 2.5rem !important;
+        font-weight: 400;
+
     }
 
 }

@@ -1,0 +1,41 @@
+.faq-sec {
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    padding: 2rem 0;
+    color: white;
+}
+
+.faq-details {
+    border: 1px solid #09aff4;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.faq-details summary {
+    color: #09aff4;
+    font-weight: bold;
+}
+
+.faq-details p {
+    text-align: justify;
+}
+
+.faq-details-row {
+    margin: 2em 0;
+}
+
+.details-main {
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .faq-details-row {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-details-divs {
+        flex-direction: column;
+    }
+}

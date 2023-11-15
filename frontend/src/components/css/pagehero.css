@@ -56,14 +56,11 @@
     color: var(--special_text_color);
     letter-spacing: var(--special_letter_spacing);
     font-weight: 600;
-
 }
 
 .image-container {
-
     position: relative;
 }
-
 
 .image-container img {
     width: 110%;
@@ -85,6 +82,10 @@
 /* .costum-btn-page-hero {
     width: 195px;
 } */
+
+.costum-hero-page-para {
+    color: rgb(223, 213, 213);
+}
 
 /* Media Queries */
 @media screen and (max-width: 1200px) {
@@ -109,8 +110,16 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 768px) {
     .costum-page-hero-title {
-        font-size: 1.3rem !important;
+        font-size: 2.1rem !important;
+        font-weight: bold;
+        letter-spacing: var(--special_letter_spacing);
     }
+
+    .same-property-sub-heading-page-hero {
+        font-size: large;
+        font-weight: bold !important;
+    }
+
 }

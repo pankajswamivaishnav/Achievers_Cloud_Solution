@@ -10,7 +10,7 @@ const ContactSec = () => {
             <h1 className="text-center contactsec-sub-heading">
               Get In Touch With Us
             </h1>
-            <p className="text-center text-light fw-semibold">
+            <p className="text-center contact-sec-content fw-semibold">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
               dolorum voluptates ipsum necessitatibus laudantium deserunt?
             </p>

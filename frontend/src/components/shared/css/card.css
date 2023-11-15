@@ -23,7 +23,8 @@
 }
 
 .card-text {
-    font-weight: 500;
+    /* font-weight: 500; */
+    color: rgb(223, 213, 213);
 }
 
 #card_read_more span {

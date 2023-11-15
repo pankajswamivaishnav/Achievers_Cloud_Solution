@@ -10,7 +10,7 @@ const Blog = () => {
           <div className="row mt-3 mb-3 ">
             <div className="col-xl-6 col-md-6 col-sm-12">
               <h5 className="blog-header">BLOG</h5>
-              <h1 className="blog-header-title">Latest News</h1>
+              <h1 className="blog-header-title">Latest Blog</h1>
             </div>
             <div className="col-xl-6 col-md-6 col-sm-12">
               <a href="/blogs">

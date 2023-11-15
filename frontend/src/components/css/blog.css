@@ -27,7 +27,9 @@
 .blog-header {
     color: var(--special_text_color);
     letter-spacing: var(--special_letter_spacing);
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: x-large;
+    font-weight: bold !important;
 }
 
 .blog-header-title {
