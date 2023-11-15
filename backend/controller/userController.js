@@ -1,26 +1,26 @@
 // const User = require("../models/User");
-// const nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 // Methods Has Been Start
-// const sendUser = async (req, res) => {
-//   const { name, email, subject, message } = req.body;
-//   try {
-//     const user = await User.create({
-//       name: name,
-//       email: email,
-//       subject: subject,
-//       message: message,
-//     });
-//     res.json({
-//       name: user.name,
-//       email: user.email,
-//       subject: user.subject,
-//       message: user.message,
-//     });
-//   } catch (err) {
-//     res.status(404).send("Do Not Send Data", err);
-//   }
-// };
+const sendUser = async (req, res) => {
+  const { name, email, subject, message } = req.body;
+  try {
+    const user = await User.create({
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    });
+    res.json({
+      name: user.name,
+      email: user.email,
+      subject: user.subject,
+      message: user.message,
+    });
+  } catch (err) {
+    res.status(404).send("Do Not Send Data", err);
+  }
+};
 
 // const sendUser = async (req, res) => {
 //   let { name, email, subject, message } = req.body;
@@ -58,4 +58,4 @@
 // };
 
 // Export Method
-// module.exports = sendUser;
+module.exports = sendUser;
