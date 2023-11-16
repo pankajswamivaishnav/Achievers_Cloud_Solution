@@ -32,7 +32,7 @@ const Card = (props) => {
           <i className="fa-regular fa-user"></i>&nbsp; <span>Authore</span>
         </div>
         <div className="card-body">
-          <h5 className="card-title costum-card-title">{trimmedTitle}</h5>
+          <h3 className="card-title costum-card-title">{trimmedTitle}</h3>
           <p className="card-text">{trimmedText}</p>
           <a href="/" id="card_read_more">
             <span>Read More</span> &nbsp;

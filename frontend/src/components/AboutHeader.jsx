@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/aboutheader.css";
-// import aboutusImg from "./images/aboutus_img.png";
+
 // React Router Dom
 import { useLocation } from "react-router-dom";
 const AboutHeader = () => {
@@ -14,17 +14,14 @@ const AboutHeader = () => {
               <div className="parent-heading">
                 <div className="child-heading">
                   <h1 className="blog-heading">About Us</h1>
-                  <p className="blog-path text-center">
-                    <i className="fa-solid fa-house"></i>&nbsp;{" "}
+                  <p className="blog-path text-center blog-sub-heading-para">
+                    <i className="fa-solid fa-house"></i>&nbsp;
                     <span>Home</span>
                     {location.pathname}
                   </p>
                 </div>
               </div>
             </div>
-            {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 costum-about-us-img-container">
-              <img src={aboutusImg} alt="about-us" className="img-fluid" />
-            </div> */}
           </div>
         </div>
       </div>

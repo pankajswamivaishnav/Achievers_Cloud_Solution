@@ -3,11 +3,13 @@ const app = express();
 const path = require("path");
 var cors = require("cors");
 require("dotenv").config();
+
 // Port
 const port = process.env.PORT;
 
 // Route Defined
 const userRoute = require("./routes/userRoutes");
+
 // Database Connection
 require("./db/conn");
 

@@ -18,7 +18,7 @@ const SingleServiceSec = (props) => {
                   />
                 </div>
                 <div className="col-xl-12  service-detail-single-page">
-                  <h1>{props.title}</h1>
+                  <h2>{props.title}</h2>
                   <p>{props.content}</p>
                 </div>
                 {/* Small Image */}
@@ -99,38 +99,6 @@ const SingleServiceSec = (props) => {
                 </div>
               </div>
             </div>
-            {/* List Of Services */}
-            {/* <div className="col-xl-4 col-md-12 single-service-left-box">
-              <div className="container d-flex flex-column align-items-center costum-list-container">
-                <h4 className="list-services-heading-single-page">
-                  List Of Services
-                </h4>
-                <div className="web-dev list-services-single-page">
-                  <i className="fa-solid fa-code me-3"></i>
-                  <a href="/Web-Development/1"> Web Development</a>
-                </div>
-                <div className="digital-mark list-services-single-page">
-                  <i className="fas fa-chart-line me-3"></i>
-                  <a href="/Digital-Marketing/2"> Digital Marketing</a>
-                </div>
-                <div className="saas-pro list-services-single-page">
-                  <i className="fas fa-cubes me-3"></i>
-                  <a href="/Game-Development/3">Game Development</a>
-                </div>
-                <div className="apps-dev list-services-single-page">
-                  <i className="fas fa-mobile-alt me-3"></i>
-                  <a href="/Salesforce/4">Salesforce</a>
-                </div>
-                <div className="seo list-services-single-page">
-                  <i className="fas fa-search me-3"></i>
-                  <a href="/Seo-Services/5"> Seo Services</a>
-                </div>
-                <div className="data-ana list-services-single-page">
-                  <i className="fas fa-chart-bar me-3"></i>
-                  <a href="/Payment-Gateway/6">Payment Gateway</a>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

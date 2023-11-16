@@ -8,12 +8,12 @@ const Testimonial = () => {
       <div className="container-fluid costum-testimonial">
         <div className="container">
           <div className="m-5">
-            <h5 className="text-center special_text_color same-property-sub-heading-page-hero">
+            <div className="card-header text-center fs-4 border-0 bg-transparent special_text_color same-property-sub-heading-page-hero">
               TESTIMONIALS
-            </h5>
-            <h2 className=" text-center costum-page-testimonial-title">
+            </div>
+            <h3 className=" text-center costum-page-testimonial-title">
               Customers Testimonials
-            </h2>
+            </h3>
           </div>
           <div className="costum-carousel">
             {/* Carousel wrapper */}
@@ -49,10 +49,6 @@ const Testimonial = () => {
                   className="fa-solid fa-arrow-left fa-xl"
                   aria-hidden="true"
                 />
-                {/* <i
-                  classname="fa-solid fa-arrow-right"
-                  style={{ color: "#ffffff" }}
-                /> */}
                 <span className="visually-hidden">Previous</span>
               </button>
               <button

@@ -12,7 +12,9 @@ import About from "./screens/About";
 import Service from "./screens/Service";
 import Contact from "./screens/Contact";
 import SingleServicePage from "./screens/SingleServicePage";
+import Career from "./screens/Career";
 import Page404 from "./screens/Page404";
+import Policies from "./screens/Policies";
 const App = () => {
   return (
     <section className="appComponentBackground">
@@ -24,6 +26,8 @@ const App = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/:title/:id" element={<SingleServicePage />} />
+          <Route path="/careers" element={<Career />} />
+          <Route path="/policies" element={<Policies />} />
           <Route path="*" element={<Page404 />} />
           {/* Define routes for other pages */}
         </Routes>

@@ -12,7 +12,7 @@ const AboutSec2 = () => {
             {/* Left Part */}
             <div className="col-xl-6 col-md-12 col-sm-12">
               <div>
-                <h1 className="about-sec2-heading">About Us</h1>
+                <h2 className="about-sec2-heading">About Us</h2>
                 <h4>Humble Begining. High Aspirations</h4>
                 <p className="about-sec2-para">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./shared/Card";
-import CardData from "./temp_data/CardData";
+import BlogCardData from "./temp_data/BlogCardData";
 import "./css/blog.css";
 const Blog = () => {
   return (
@@ -10,7 +10,7 @@ const Blog = () => {
           <div className="row mt-3 mb-3 ">
             <div className="col-xl-6 col-md-6 col-sm-12">
               <h5 className="blog-header">BLOG</h5>
-              <h1 className="blog-header-title">Latest Blog</h1>
+              <h2 className="blog-header-title">Latest Blog</h2>
             </div>
             <div className="col-xl-6 col-md-6 col-sm-12">
               <a href="/blogs">
@@ -25,7 +25,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="row">
-            {CardData.slice(0, 3).map((data) => {
+            {BlogCardData.slice(0, 3).map((data) => {
               return (
                 <Card
                   key={data.id}

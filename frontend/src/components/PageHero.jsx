@@ -15,28 +15,20 @@ const PageHero = () => {
                   IT SOLUTIONS
                 </div>
                 <div className="card-body card-custom-body">
-                  <h3 className="card-title card-costum-title costum-page-hero-title">
-                    Providing The Best <br /> Services & IT &nbsp;
-                    <span className="wave-underline">Solutions</span>
-                  </h3>
+                  <h1 className="card-title costum-page-hero-title">
+                    Providing The Best <br />
+                    Services & IT
+                    <span className="wave-underline"> Solutions</span>
+                  </h1>
                   <p className="card-text pt-2 costum-hero-page-para">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content the card title and make up
-                    the card title and make up title and mak Make Up.
+                    Helps you To Achieve the Best Salesforce and Cloud Services
+                    For Your Business
                   </p>
                   <a href="/contact-us" className="btn-link">
                     <button type="button" className="costum-btn">
                       Get In Touch
                     </button>
                   </a>
-                  {/* <button
-                      type="button"
-                      className="btn btn-outline costum-btn"
-                    >
-                      <a href="/contact-us" className="btn-link">
-                        Get In Touch
-                      </a>
-                    </button> */}
                 </div>
               </div>
             </div>

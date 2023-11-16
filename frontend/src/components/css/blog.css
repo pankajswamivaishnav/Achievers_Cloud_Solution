@@ -34,7 +34,7 @@
 
 .blog-header-title {
     letter-spacing: var(--special_letter_spacing);
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 @media screen and (max-width: 576px) {

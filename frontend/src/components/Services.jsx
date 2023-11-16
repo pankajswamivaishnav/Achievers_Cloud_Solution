@@ -22,12 +22,14 @@ const Services = () => {
                 SERVICES
               </div>
               <div className="card-body card-custom-body">
-                <h3 className="card-title card-costum-title costum-page-service-title">
-                  Services We Offer
-                </h3>
+                <h2 className="card-title card-costum-title costum-page-service-title">
+                  Services We Offer To Achieve Your Business Goals
+                </h2>
                 <p className=" fs-5 costum-hero-page-para">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  We are Achiever! Provide services from Salesforce to Game
+                  Development. Whether it is Web Development, Digital Marketing,
+                  SEO Development, or a Payment Gateway for your business. We
+                  are here at your service.
                 </p>
               </div>
             </div>

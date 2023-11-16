@@ -34,8 +34,25 @@
     /* Change the color on hover */
 }
 
+
+@media screen and (max-width: 1200px) {
+    .blog-heading {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-heading {
+        font-size: xx-large;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .blog-heading {
-        font-size: 3rem;
+        font-size: x-large;
+    }
+
+    .blog-sub-heading-para {
+        font-size: small;
     }
 }

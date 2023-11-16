@@ -6,9 +6,9 @@ const ContactAddSec = () => {
     <section className="contact-add-sec">
       <div className="container-fluid">
         <div className="container">
-          <h1 className="text-center contact-add-sec-heading">
+          <h2 className="text-center contact-add-sec-heading">
             Achiever Cloud IT Solution
-          </h1>
+          </h2>
           <div className="row costum-contact-add-sec-row">
             {/* Left Part */}
             <div className="col-xl-6 col-md-12 text-md-center text-sm-center mb-sm-5">

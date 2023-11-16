@@ -11,9 +11,9 @@ const TeamSec = () => {
           <div className="row my-5">
             <div className="col-xl-8 col-md-12 col-sm-12">
               <h5 className="about-team-heading">TEAM</h5>
-              <p className="about-team-heading-para">
+              <h2 className="about-team-heading-para">
                 Our Experts Team Members
-              </p>
+              </h2>
             </div>
 
             <div className="col-xl-4 col-md-12 col-sm-12">

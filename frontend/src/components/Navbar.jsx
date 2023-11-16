@@ -8,10 +8,6 @@ const Navbar = () => {
     addScrollListener();
   }, []);
 
-  // const handleEvent = (event) => {
-  //   event.preventDefault();
-  // };
-
   return (
     <section className="navbar_sec">
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
@@ -28,11 +24,6 @@ const Navbar = () => {
           <button
             className="navbar-toggler costum-navbar-toggler "
             type="button"
-            // data-bs-toggle="collapse"
-            // data-bs-target="#navbarSupportedContent"
-            // aria-controls="navbarSupportedContent"
-            // aria-expanded="false"
-            // aria-label="Toggle navigation"
             data-bs-toggle="offcanvas"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"

@@ -28,5 +28,4 @@ const ContactSec = () => {
     </section>
   );
 };
-
 export default ContactSec;

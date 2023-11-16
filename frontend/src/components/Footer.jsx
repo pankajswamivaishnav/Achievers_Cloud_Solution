@@ -24,7 +24,7 @@ const Footer = () => {
                   <a
                     className="btn text-white btn-floating m-1 footer-social-icon"
                     style={{ backgroundColor: "#1877f2" }}
-                    href="#!"
+                    href="https://www.facebook.com/AchieverCloudSolution/"
                     role="button"
                   >
                     <i className="fab fa-facebook fa-lg" />
@@ -34,7 +34,7 @@ const Footer = () => {
                     className="btn text-white btn-floating m-1 footer-social-icon"
                     // style={{ backgroundColor: "#55acee" }}
                     style={{ backgroundColor: "#fff" }}
-                    href="#!"
+                    href="https://twitter.com/AchieverCloud"
                     role="button"
                   >
                     {/* <i className="fab fa-twitter" /> */}
@@ -63,7 +63,7 @@ const Footer = () => {
                   <a
                     className="btn text-white btn-floating m-1 footer-social-icon"
                     style={{ backgroundColor: "rgb(10, 102, 194)" }}
-                    href="#!"
+                    href="https://www.instagram.com/achievercloudsolution/"
                     role="button"
                   >
                     <i className="fab fa-linkedin-in fa-lg" />
@@ -99,25 +99,25 @@ const Footer = () => {
                   {/* Grid column */}
                   <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                     {/* Links */}
-                    <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                    <h6 className="text-uppercase fw-bold mb-4">Services</h6>
                     <p>
                       <a href="#!" className="text-reset text-decoration-none">
-                        Angular
+                        Salesforce
                       </a>
                     </p>
                     <p>
                       <a href="#!" className="text-reset text-decoration-none">
-                        React
+                        Web Development
                       </a>
                     </p>
                     <p>
                       <a href="#!" className="text-reset text-decoration-none">
-                        Vue
+                        Game Development
                       </a>
                     </p>
                     <p>
                       <a href="#!" className="text-reset text-decoration-none">
-                        Laravel
+                        Digital Marketing
                       </a>
                     </p>
                   </div>
@@ -125,27 +125,37 @@ const Footer = () => {
                   {/* Grid column */}
                   <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     {/* Links */}
-                    <h6 className="text-uppercase fw-bold mb-4">
-                      Useful links
-                    </h6>
+                    <h6 className="text-uppercase fw-bold mb-4">Quick links</h6>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
-                        Pricing
+                      <a
+                        href="/about-us"
+                        className="text-reset text-decoration-none"
+                      >
+                        About-us
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
-                        Settings
+                      <a
+                        href="/contact-us"
+                        className="text-reset text-decoration-none"
+                      >
+                        Contact-us
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
-                        Orders
+                      <a
+                        href="/careers"
+                        className="text-reset text-decoration-none"
+                      >
+                        Career
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
-                        Help
+                      <a
+                        href="/policies"
+                        className="text-reset text-decoration-none"
+                      >
+                        Terms & Conditions
                       </a>
                     </p>
                   </div>

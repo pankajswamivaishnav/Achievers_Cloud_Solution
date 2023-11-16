@@ -18,15 +18,16 @@ const Why = () => {
                   WHY CHOOSE US
                 </div>
                 <div className="card-body card-custom-body">
-                  <h3 className="card-title card-costum-title costum-page-why-title">
+                  <h2 className="card-title card-costum-title costum-page-why-title">
                     Why Our Customers Choose
                     <span className="wave-underline"> Working </span>
                     With Us
-                  </h3>
+                  </h2>
                   <p className="card-text costum-hero-page-para">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content the card title and make up
-                    the card title and make up title and mak Make Up.
+                    We Achiever believes in serving the right tools and
+                    technology including Salesforce and Cloud Services, IT
+                    Solutions, Gaming, and SEO development. So your business
+                    skyrockets without you worked up.
                   </p>
                 </div>
               </div>
@@ -36,11 +37,11 @@ const Why = () => {
                   <p className="points">01.</p>
                 </div>
                 <div className="col-xl-10 col-sm-12">
-                  <h3>Latest Technologies</h3>
+                  <h3>Use the leading Technology including AI </h3>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
-                    quaerat voluptas blanditiis. quia.
+                    We only use the top AI technology and tools to enhance your
+                    business. So it will walk along with the rapidly changing
+                    and growing business world.
                   </p>
                 </div>
               </div>
@@ -50,11 +51,10 @@ const Why = () => {
                   <p className="points">02.</p>
                 </div>
                 <div className="col-xl-10 col-sm-12">
-                  <h3>Uniqe Solutions</h3>
+                  <h3>Zero-Cost Salesforce CRM Consultation</h3>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
-                    quaerat voluptas blanditiis. quia.
+                    Let’s talk before you reach any decision and it's free of
+                    cost. Because we only want the best for you.
                   </p>
                 </div>
               </div>
@@ -64,11 +64,42 @@ const Why = () => {
                   <p className="points">03.</p>
                 </div>
                 <div className="col-xl-10 col-sm-12">
-                  <h3>Powerful Stratgies</h3>
+                  <h3>Services for every kind of industry</h3>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil,
-                    quaerat voluptas blanditiis. quia.
+                    With us type of industry is not an issue anymore. Whether it
+                    is IT, Web, Gaming, Media, Retail, Financial, Real Estate,
+                    Food, Pharmaceutics etc. You name it and achiever and its
+                    team are on it to make your lives easier.
+                  </p>
+                </div>
+              </div>
+              {/* Fourth Point */}
+              <div className="row mt-3 mb-3">
+                <div className="col-xl-2 col-sm-12">
+                  <p className="points">04.</p>
+                </div>
+                <div className="col-xl-10 col-sm-12">
+                  <h3>Top Salesforce Services</h3>
+                  <p className="card-text">
+                    We’ll take care of your traditional business and take it to
+                    the next level using our best Web Services. Or your
+                    brand-new Start-up! we assure you, that we’ll welcome you
+                    with our utmost supreme Salesforce cloud and IT services.
+                  </p>
+                </div>
+              </div>
+              {/* Fifth Point */}
+              <div className="row mt-3 mb-3">
+                <div className="col-xl-2 col-sm-12">
+                  <p className="points">05.</p>
+                </div>
+                <div className="col-xl-10 col-sm-12">
+                  <h3>Expert Team As Post-services</h3>
+                  <p className="card-text">
+                    Once you start a business with us we will give you an expert
+                    team that will only focus on your business dreams and goals
+                    and give you regular updates. So you don’t have to worry
+                    about wondering how things are going.
                   </p>
                 </div>
               </div>

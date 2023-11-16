@@ -9,7 +9,7 @@ const AboutWhoWeAre = () => {
             {/* Left Part */}
             <div className="col-xl-6 col-lg-6">
               <div className="col-xl-12">
-                <h1 className="who-we-are-heading">Who We Are</h1>
+                <h2 className="who-we-are-heading">Who We Are</h2>
               </div>
               <div className="col-xl-12">
                 <p className="who-we-are-para">
