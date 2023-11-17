@@ -24,7 +24,7 @@ const Footer = () => {
                   <a
                     className="btn text-white btn-floating m-1 footer-social-icon"
                     style={{ backgroundColor: "#1877f2" }}
-                    href="https://www.facebook.com/AchieverCloudSolution/"
+                    href="https://www.facebook.com/profile.php?id=100073330762098"
                     role="button"
                   >
                     <i className="fab fa-facebook fa-lg" />
@@ -54,7 +54,7 @@ const Footer = () => {
                       filter:
                         "progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) ",
                     }}
-                    href="#!"
+                    href="https://www.instagram.com/achievercloud/"
                     role="button"
                   >
                     <i className="fab fa-instagram fa-lg" />
