@@ -32,7 +32,6 @@ const Footer = () => {
                   {/* Twitter */}
                   <a
                     className="btn text-white btn-floating m-1 footer-social-icon"
-                    // style={{ backgroundColor: "#55acee" }}
                     style={{ backgroundColor: "#fff" }}
                     href="https://twitter.com/AchieverCloud"
                     role="button"
@@ -85,10 +84,7 @@ const Footer = () => {
                     <div className="footer-logo">
                       <img src={companyLogo} alt="Achiever Cloud Solution" />
                     </div>
-                    {/* <h6 className="text-uppercase fw-bold mb-4">
-                      <i className="fas fa-gem me-3" />
-                      Achiever Cloud IT Solution
-                    </h6> */}
+
                     <p className="mt-4">
                       Here you can use rows and columns to organize your footer
                       content. Lorem ipsum dolor sit amet, consectetur
@@ -101,22 +97,34 @@ const Footer = () => {
                     {/* Links */}
                     <h6 className="text-uppercase fw-bold mb-4">Services</h6>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
+                      <a
+                        href="/Salesforce/4"
+                        className="text-reset text-decoration-none"
+                      >
                         Salesforce
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
+                      <a
+                        href="/Web-Development/1"
+                        className="text-reset text-decoration-none"
+                      >
                         Web Development
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
+                      <a
+                        href="/Game-Development/3"
+                        className="text-reset text-decoration-none"
+                      >
                         Game Development
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-reset text-decoration-none">
+                      <a
+                        href="/Digital-Marketing/2"
+                        className="text-reset text-decoration-none"
+                      >
                         Digital Marketing
                       </a>
                     </p>
@@ -131,7 +139,7 @@ const Footer = () => {
                         href="/about-us"
                         className="text-reset text-decoration-none"
                       >
-                        About-us
+                        About us
                       </a>
                     </p>
                     <p>
@@ -139,7 +147,7 @@ const Footer = () => {
                         href="/contact-us"
                         className="text-reset text-decoration-none"
                       >
-                        Contact-us
+                        Contact us
                       </a>
                     </p>
                     <p>
@@ -190,6 +198,8 @@ const Footer = () => {
               <a
                 className="text-resetfw-bold developer-name"
                 href="https://www.linkedin.com/in/pankaj-swami-vaishnav/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Pankaj Swami Vaishnav
               </a>

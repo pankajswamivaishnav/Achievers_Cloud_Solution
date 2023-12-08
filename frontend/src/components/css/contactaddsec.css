@@ -34,9 +34,14 @@
 .contact-add-sec-heading {
     padding: 5rem 0;
     font-weight: bold;
-    font-size: 3.5rem;
-    cursor: pointer;
+    font-size: 3rem;
+    /* cursor: pointer; */
     color: white;
+}
+
+.contact-add-sec-points {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .contact-add-sec-heading:hover {

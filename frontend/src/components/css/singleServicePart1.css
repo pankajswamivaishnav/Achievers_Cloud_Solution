@@ -1,0 +1,11 @@
+.single-service-part1-sec {
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .single-service-part1-sec {
+        padding: 2rem 0;
+    }
+}

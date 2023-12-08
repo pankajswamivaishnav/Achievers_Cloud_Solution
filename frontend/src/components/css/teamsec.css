@@ -8,6 +8,7 @@
     color: var(--special_text_color);
     letter-spacing: var(--special_letter_spacing);
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .about-team-heading-para {

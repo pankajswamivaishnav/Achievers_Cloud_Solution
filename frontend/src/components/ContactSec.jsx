@@ -6,10 +6,10 @@ const ContactSec = () => {
       <div className="container-fluid costum-conatctsec-fluid">
         <div className="container costum-contact-sec">
           <div className="costum-contactsec-container-child-div">
-            <h5 className="text-center conatctsec-heading">CONTACT US</h5>
-            <h1 className="text-center contactsec-sub-heading">
+            <div className="text-center conatctsec-heading">CONTACT US</div>
+            <h2 className="text-center contactsec-sub-heading">
               Get In Touch With Us
-            </h1>
+            </h2>
             <p className="text-center contact-sec-content fw-semibold">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
               dolorum voluptates ipsum necessitatibus laudantium deserunt?

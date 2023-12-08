@@ -10,7 +10,7 @@ const TeamSec = () => {
           {/* Team Block Header */}
           <div className="row my-5">
             <div className="col-xl-8 col-md-12 col-sm-12">
-              <h5 className="about-team-heading">TEAM</h5>
+              <div className="about-team-heading">TEAM</div>
               <h2 className="about-team-heading-para">
                 Our Experts Team Members
               </h2>

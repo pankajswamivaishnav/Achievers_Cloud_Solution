@@ -28,6 +28,12 @@
     margin: 1em 0;
 }
 
+@media (min-width: 1220px) {
+    .faq-summary {
+        height: 3rem;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .faq-details-row {
         margin: 0;

@@ -9,7 +9,7 @@ const Blog = () => {
         <div className="container">
           <div className="row mt-3 mb-3 ">
             <div className="col-xl-6 col-md-6 col-sm-12">
-              <h5 className="blog-header">BLOG</h5>
+              <div className="blog-header">BLOG</div>
               <h2 className="blog-header-title">Latest Blog</h2>
             </div>
             <div className="col-xl-6 col-md-6 col-sm-12">

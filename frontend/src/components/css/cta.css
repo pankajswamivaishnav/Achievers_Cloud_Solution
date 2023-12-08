@@ -1,0 +1,69 @@
+.cta_sec {
+    color: white;
+    padding: 5rem 0;
+
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-heading {
+    font-weight: bold;
+}
+
+.cta-text {
+    margin-right: 3rem;
+}
+
+.cta-btn {
+    height: 3rem;
+    width: 11rem;
+    color: white;
+    font-weight: bold;
+}
+
+.ctaMainDiv {
+    border: 1px solid #09aff4;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    background-image: url("../../components/images/about-us-bg.png");
+}
+
+@media screen and (max-width: 768px) {
+    .cta_sec {
+        padding:
+            2rem 0;
+    }
+
+    .ctaMainDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-heading {
+        font-weight: bold;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .cta-text {
+        margin-right: 0rem;
+    }
+
+    .cta-para {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .ctaMainDiv {
+        border: 1px solid #09aff4;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+}

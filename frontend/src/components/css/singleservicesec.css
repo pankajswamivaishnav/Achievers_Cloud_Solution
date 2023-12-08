@@ -66,3 +66,7 @@
     overflow-y: hidden;
     max-height: 100vh;
 }
+
+.single-service-sec-list {
+    list-style: numeric;
+}

@@ -1,0 +1,24 @@
+.pointDiv {
+    display: flex;
+}
+
+.point {
+    font-size: xx-large;
+    color: var(--special_text_color);
+    font-weight: bold;
+}
+
+.pointData {
+    font-size: xx-large;
+}
+
+
+@media screen and (max-width: 768px) {
+    .point {
+        font-size: large;
+    }
+
+    .pointData {
+        font-size: large;
+    }
+}

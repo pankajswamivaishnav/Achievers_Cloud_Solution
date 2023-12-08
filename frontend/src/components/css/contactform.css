@@ -73,12 +73,12 @@ textarea {
 
 .contact-form-map-heading:hover {
     color: var(--special_text_color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .contact-form-heading:hover {
     color: var(--special_text_color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 @media screen and (max-width: 768px) {

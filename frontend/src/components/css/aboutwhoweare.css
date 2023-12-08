@@ -22,7 +22,8 @@
 }
 
 .who-we-are-para {
-    text-align: justify;
+    /* text-align: justify; */
+    font-size: larger;
 }
 
 

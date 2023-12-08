@@ -6,7 +6,7 @@
 .about-sec2-para {
     font-size: larger;
     font-weight: 400;
-    text-align: justify;
+    /* text-align: justify; */
     color: rgb(223, 213, 213);
 }
 

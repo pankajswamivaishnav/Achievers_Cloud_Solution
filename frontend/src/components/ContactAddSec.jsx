@@ -22,7 +22,7 @@ const ContactAddSec = () => {
             <div className="col-xl-6 pt-xl-5 pt-md-5 col-md-12 costum-contact-addsec-rightpart">
               <div className="row">
                 <div className="col-xl-12 text-center">
-                  <h2 className="">Address</h2>
+                  <p className="contact-add-sec-points">Address</p>
                   <div className="d-flex justify-content-center">
                     <i className="fa-solid fa-2x fa-location-dot px-3 py-1"></i>
                     <p className="pt-1 costum-contact-add-sec-para">
@@ -31,7 +31,7 @@ const ContactAddSec = () => {
                   </div>
                 </div>
                 <div className="col-xl-12 text-center">
-                  <h2 className="">Our-Email</h2>
+                  <p className="contact-add-sec-points">Our-Email</p>
                   <div className="d-flex justify-content-center">
                     <i class="fa-regular fa-2x fa-envelope px-3 py-2"></i>
                     <p className="pt-1 pe-2 costum-contact-add-sec-para">
@@ -42,7 +42,7 @@ const ContactAddSec = () => {
                   </div>
                 </div>
                 <div className="col-xl-12 fa-2x text-center">
-                  <h2 className="">Phone</h2>
+                  <p className="contact-add-sec-points">Phone</p>
                   <div className="d-flex justify-content-center">
                     <i class="fa-solid fa-phone pe-3 py-2"></i>
                     <p className="pe-5 costum-contact-add-sec-number">

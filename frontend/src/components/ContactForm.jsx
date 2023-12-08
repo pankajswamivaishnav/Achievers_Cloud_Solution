@@ -192,7 +192,7 @@ const ContactForm = () => {
         <div className="container">
           {/* Heading */}
           <div className="costum-contactform-row1">
-            <h2 className="contact-form-map-heading">Find Us On Google Maps</h2>
+            <h3 className="contact-form-map-heading">Find Us On Google Maps</h3>
           </div>
           {/* Embedded Map */}
           <div className="row costum-contactform-row2">
@@ -209,9 +209,9 @@ const ContactForm = () => {
           </div>
           {/* Form */}
           <div className="row costum-contact-row3">
-            <h2 className="text-center py-5 contact-form-heading">
+            <h3 className="text-center py-5 contact-form-heading">
               Have Any Questions ? Let's Answer Them
-            </h2>
+            </h3>
             <form method="post" onSubmit={formSubmit} id="contact-form">
               <div className="row">
                 <div className="col-xl-6 costum-form-input">

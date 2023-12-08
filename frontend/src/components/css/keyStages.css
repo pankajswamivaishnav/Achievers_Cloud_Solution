@@ -1,0 +1,44 @@
+.key-stages-sec {
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    padding: 2rem 0;
+    color: white;
+}
+
+.key-stages-icon {
+    font-size: 5rem;
+    /* color: #09aff4; */
+    color: white;
+    text-align: center;
+}
+
+.key-stages-mainDiv {
+    background-color: #09aff4 !important;
+    /* background-color: rgb(19, 17, 41) !important; */
+    /* border: 1px solid #09aff4; */
+    border: 1px solid white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+}
+
+.key-stages-mainDiv:hover {
+    background-color: rgb(19, 17, 41) !important;
+}
+
+.key-stages-mainDiv:hover .key-stages-icon {
+    /* color: white; */
+    color: #09aff4;
+    /* Change to white on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .solu-strat-mainDiv {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+
+}
