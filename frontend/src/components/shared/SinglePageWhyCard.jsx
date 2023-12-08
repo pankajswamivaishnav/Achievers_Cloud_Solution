@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./css/singlePageWhyCard.css";
 const SinglePageWhyCard = (props) => {
   return (
     <div className="col-xl-6 col-md-6 col-sm-12 service-detail-single-page">
@@ -10,6 +10,13 @@ const SinglePageWhyCard = (props) => {
         <div className="col-xl-10 col-sm-12">
           <h3>{props.service.title}</h3>
           <p>{props.service.description}</p>
+          {/* <ul>
+            {Object.values(props.service.description).map((point, index) => (
+              <li className="single-page-why-card" key={index}>
+                {point}
+              </li>
+            ))}
+          </ul> */}
         </div>
       </div>
     </div>

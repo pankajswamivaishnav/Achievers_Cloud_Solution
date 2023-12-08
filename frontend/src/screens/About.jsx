@@ -6,9 +6,10 @@ import AboutSec2 from "../components/AboutSec2";
 import AboutWhoWeAre from "../components/AboutWhoWeAre";
 import TeamSec from "../components/TeamSec";
 import Testimonial from "../components/Testimonial";
-// import Blog from "../components/Blog";
 import Faq from "../components/Faq";
 import ContactSec from "../components/ContactSec";
+
+// Start Function
 const About = () => {
   return (
     <div>
@@ -18,7 +19,6 @@ const About = () => {
       <AboutWhoWeAre />
       <TeamSec />
       <Testimonial />
-      {/* <Blog /> */}
       <Faq />
       <ContactSec />
       <Footer />

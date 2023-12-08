@@ -2,6 +2,8 @@ import React from "react";
 import "./css/testimonial.css";
 import testimonialData from "./temp_data/testimonial";
 import TestimonialItem from "./shared/TestimonialItem";
+
+// Start Function
 const Testimonial = () => {
   return (
     <section className="testimonial_sec">

@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "./css/navbar.css";
 import { addScrollListener } from "./js/navbar";
 import achieverLogo from "./images/achiever-logo.png";
+
+// Start Function
 const Navbar = () => {
   // Color Change On y-axix scrolling
   useEffect(() => {

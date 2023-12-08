@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/faq.css";
+
+// Start Function
 const Faq = () => {
   return (
     <div className="faq-sec">

@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/errorpage.css";
 import errorImg from "../components/images/404-img.png";
+
+// Start Function
 const ErrorPage = () => {
   return (
     <section className="page_404">

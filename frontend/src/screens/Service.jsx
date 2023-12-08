@@ -6,6 +6,8 @@ import Testimonial from "../components/Testimonial";
 import ContactSec from "../components/ContactSec";
 import Footer from "../components/Footer";
 import Why from "../components/Why";
+
+// Start Function
 const Service = () => {
   return (
     <section className="service-section">

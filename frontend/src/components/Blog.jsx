@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./shared/Card";
 import BlogCardData from "./temp_data/BlogCardData";
 import "./css/blog.css";
+
+// Start Function
 const Blog = () => {
   return (
     <section className="blog_sec">

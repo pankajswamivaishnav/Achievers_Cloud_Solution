@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/pagehero.css";
 import heroImg from "./images/hero-img.png";
+
+// Start Function
 const PageHero = () => {
   return (
     <section className="hero-section">

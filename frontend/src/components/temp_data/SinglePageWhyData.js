@@ -1,27 +1,33 @@
 const webDevelopment = [
   {
     id: 1,
-    title: "Latest Technologies",
+    title: "Innovative Engagement Model:",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil, quaerat voluptas blanditiis. quia.",
+      "Our approach emphasizes clear, localized interactions, fostering direct and real-time teamwork where every member takes ownership. Our team comprises committed full-time developers dedicated to your project's success, ensuring cohesive collaboration and responsible execution at every step.",
+    // descriptions: {
+    //   1: "lorem ipsum dolor sit amet",
+    //   2: "lorem ipsum dolor sit amet",
+    //   3: "lorem ipsum dolor sit amet",
+    //   4: "lorem ipsum dolor sit amet",
+    // },
   },
   {
     id: 2,
-    title: "Unique Solutions",
+    title: "Your Comprehensive Development Hub:",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil, quaerat voluptas blanditiis. quia.",
+      "Our in-house team boasts 50+ expert developers, offering a diverse skill set to fulfill every requirement. We specialize in assembling tailored teams catering to industry-specific needs, ensuring comprehensive and adept solutions for every project.",
   },
   {
     id: 3,
-    title: "Powerful Strategies",
+    title: "Affordable Yet High-Yield Services:",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil, quaerat voluptas blanditiis. quia.",
+      "We believe in transparent pricing with no hidden charges. Our services come with complimentary quality assurance and management, ensuring top-notch deliverables. Experience up to 80% savings on development costs with our optimized solutions.",
   },
   {
     id: 4,
-    title: "Deliver On Just Time",
+    title: "Dedicated Work-for-Hire Solutions:",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae velit laborum ipsam. Magnam placeat aut nihil, quaerat voluptas blanditiis. quia.",
+      "We prioritize quick project initiation, getting you started within 48 hours. With a focus on building enduring client partnerships, our expertise stems from over two decades of trusted service.",
   },
 ];
 

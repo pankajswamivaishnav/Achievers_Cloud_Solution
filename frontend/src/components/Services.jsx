@@ -4,6 +4,8 @@ import ServiceCardData from "./temp_data/ServiceCardData";
 // React Router Dom
 import { useLocation } from "react-router-dom";
 import "./css/services.css";
+
+// Start Function
 const Services = () => {
   const location = useLocation();
 

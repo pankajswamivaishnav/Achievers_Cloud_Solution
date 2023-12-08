@@ -1,6 +1,8 @@
 import React from "react";
 import heroImg from "./images/why-choose-img.png";
 import "./css/why.css";
+
+// Start Function
 const Why = () => {
   return (
     <section className="why_sec">

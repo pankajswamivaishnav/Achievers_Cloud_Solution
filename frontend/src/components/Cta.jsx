@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/cta.css";
+
+// Start Function
 const Cta = () => {
   return (
     <section className="cta_sec">

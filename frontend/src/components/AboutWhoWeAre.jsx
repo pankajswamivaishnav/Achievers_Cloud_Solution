@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/aboutwhoweare.css";
+
+// Start Function
 const AboutWhoWeAre = () => {
   return (
     <section className="who-we-are-sec">

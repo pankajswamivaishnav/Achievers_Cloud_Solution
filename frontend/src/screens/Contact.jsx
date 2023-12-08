@@ -4,6 +4,8 @@ import ContactHeader from "../components/ContactHeader";
 import ContactAddSec from "../components/ContactAddSec";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+
+// Start Function
 const Contact = () => {
   return (
     <div>

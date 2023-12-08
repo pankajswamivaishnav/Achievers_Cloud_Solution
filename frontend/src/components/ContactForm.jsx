@@ -143,6 +143,12 @@ const backendURL = "https://achiever-cloud-it-solution.onrender.com";
 //     </section>
 //   );
 // };
+
+
+
+
+
+// Start Function
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -190,23 +196,6 @@ const ContactForm = () => {
     <section className="costum-contact-form">
       <div className="container-fluid">
         <div className="container">
-          {/* Heading */}
-          <div className="costum-contactform-row1">
-            <h3 className="contact-form-map-heading">Find Us On Google Maps</h3>
-          </div>
-          {/* Embedded Map */}
-          <div className="row costum-contactform-row2">
-            <div className="col-xl-12">
-              <iframe
-                title="achiever Cloud IT Solution"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.2975098075817!2d75.77171609999999!3d26.894051599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5a404a63f8f%3A0x57d4cbafe7d1f79f!2sFantasy%20Khiladi!5e0!3m2!1sen!2sin!4v1698308014834!5m2!1sen!2sin"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="acs-map"
-              />
-            </div>
-          </div>
           {/* Form */}
           <div className="row costum-contact-row3">
             <h3 className="text-center py-5 contact-form-heading">

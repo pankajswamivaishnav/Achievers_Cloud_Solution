@@ -3,6 +3,8 @@ import "./css/aboutsec2.css";
 import dataArray from "./temp_data/journeyData";
 //Journey Sub Component
 import { Component1, Component2 } from "./shared/AboutOurJourney";
+
+// Start Function
 const AboutSec2 = () => {
   return (
     <section className="about-costum-sec">

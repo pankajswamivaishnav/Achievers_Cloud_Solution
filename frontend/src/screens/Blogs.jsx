@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import BlogHeader from "../components/BlogHeader";
 import BlogMiddle from "../components/BlogMiddle";
 import Footer from "../components/Footer";
+
+// Start Function
 const Blogs = () => {
   return (
     <div>

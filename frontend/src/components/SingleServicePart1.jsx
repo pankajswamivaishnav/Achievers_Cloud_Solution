@@ -1,42 +1,4 @@
-// import React, { useEffect, useState } from "react";
-// import { useLocation } from "react-router-dom";
-// import "./css/singleServicePart1.css";
-// import Points from "./shared/Points";
-// // import serviceSolutions from "./temp_data/SingleServicePart1Points";
-// const SingleServicePart1 = () => {
-//   const location = useLocation();
-//   const [currentURL, setCurrentURL] = useState("");
-//   useEffect(() => {
-//     // Get the current URL from the location object
-//     const { pathname, search, hash } = location;
-//     const url = `${pathname}${search}${hash}`;
-//     const segments = url.split("/");
-//     const desiredContent = segments[1];
-//     setCurrentURL(desiredContent);
-//   }, [location]);
-//   return (
-//     <section className="single-service-part1-sec">
-//       <div className="container-fluid">
-//         <div className="container">
-//           <h2>Customized Web Development Solutions</h2>
-//           <p>
-//             Discover Your Ideal Web Solution: Our team specializes in creating
-//             distinct web-based applications, each uniquely designed for an
-//             unparalleled digital experience."
-//           </p>
-//           {/* Points */}
-//           <div className="row">
-//             <div className="col-xl-6">
-//               <Points />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default SingleServicePart1;
+// This Time is not usefull
 
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
@@ -44,6 +6,7 @@ import "./css/singleServicePart1.css";
 import Points from "./shared/Points";
 import serviceSolutions from "./temp_data/SingleServicePart1Points";
 
+// Start Function
 const SingleServicePart1 = () => {
   const location = useLocation();
   //   const [currentURL, setCurrentURL] = useState("");

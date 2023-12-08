@@ -7,6 +7,7 @@ import SingleServiceSec from "../components/SingleServiceSec";
 import Footer from "../components/Footer";
 import singleServiceData from "../components/temp_data/singleServiceData";
 
+// Function Start
 const SingleServicePage = () => {
   const { id } = useParams();
   // Get Single Data

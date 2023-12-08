@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/policiesSec.css";
+
+// Start Function
 const PoliciesSec = () => {
   return (
     <section className="policies-sec-section">

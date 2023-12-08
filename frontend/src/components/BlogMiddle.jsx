@@ -2,6 +2,8 @@ import React from "react";
 import "./css/blogmiddle.css";
 import Card from "./shared/Card";
 import BlogCardData from "./temp_data/BlogCardData";
+
+// Start Function
 const BlogMiddle = () => {
   return (
     <section className="blog-middle-section">

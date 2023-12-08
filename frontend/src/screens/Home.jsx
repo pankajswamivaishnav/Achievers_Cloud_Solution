@@ -7,6 +7,8 @@ import Testimonial from "../components/Testimonial";
 import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 import "./css/home.css";
+
+// Start Function
 const Home = () => {
   return (
     <section className="home_sec">

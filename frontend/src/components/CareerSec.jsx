@@ -2,6 +2,8 @@ import React from "react";
 import "./css/careerSec.css";
 import careerPost from "./temp_data/careerPost";
 import Careerbox from "./shared/Careerbox";
+
+// Start Function
 const CareerSec = () => {
   return (
     <section className="career-sec">

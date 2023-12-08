@@ -2,6 +2,8 @@ import React from "react";
 import TeamCard from "./shared/TeamCard";
 import teamMemberData from "./temp_data/teamData";
 import "./css/teamsec.css";
+
+// Start Function
 const TeamSec = () => {
   return (
     <section className="about_team_sec">

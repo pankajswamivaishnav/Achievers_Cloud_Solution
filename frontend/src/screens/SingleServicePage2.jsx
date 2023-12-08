@@ -5,13 +5,14 @@ import Navbar from "../components/Navbar";
 import ServiceHeader from "../components/ServiceHeader";
 import SingleServiceSec from "../components/SingleServiceSec";
 import Footer from "../components/Footer";
-// import SingleServicePart1 from "../components/SingleServicePart1";
 import Cta from "../components/Cta";
 import SolutionStrategy from "../components/SolutionStrategy";
 import singleServiceData from "../components/temp_data/singleServiceData";
 import SinglePageServices from "../components/SinglePageServices";
 import KeyStages from "../components/KeyStages";
+import ContactForm from "../components/ContactForm";
 
+// Start Function
 const SingleServicePage2 = () => {
   const { id } = useParams();
   // Get Single Data
@@ -25,7 +26,6 @@ const SingleServicePage2 = () => {
         heading={selectedService.title}
         service={selectedService.service}
       />
-      {/* <SingleServicePart1 /> */}
       <SinglePageServices />
       <Cta />
       <SolutionStrategy />
@@ -38,6 +38,7 @@ const SingleServicePage2 = () => {
         imgSrc2={selectedService.imgSrc2}
         imgSrc3={selectedService.imgSrc3}
       />
+      <ContactForm />
       <Footer />
     </section>
   );

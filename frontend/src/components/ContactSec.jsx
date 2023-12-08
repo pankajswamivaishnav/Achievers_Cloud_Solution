@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/contactsec.css";
+
+// Start Function
 const ContactSec = () => {
   return (
     <section className="contact-sec">

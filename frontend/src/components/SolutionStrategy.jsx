@@ -9,6 +9,8 @@ import {
   salesforce,
   paymentGateway,
 } from "./temp_data/solutionStrategy";
+
+// Start Function
 const SolutionStrategy = () => {
   const location = useLocation();
   //   const [currentURL, setCurrentURL] = useState("");

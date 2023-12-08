@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/footer.css";
 import companyLogo from "./images/achiever-logo.png";
+
+// Start Function
 const Footer = () => {
   return (
     <section className="costum-footer-sec">
@@ -72,7 +74,6 @@ const Footer = () => {
               </div>
               {/* Right */}
             </section>
-            {/* Section: Social media */}
             {/* Section: Links  */}
             <section className>
               <div className="container text-center text-md-start mt-5">
@@ -86,9 +87,9 @@ const Footer = () => {
                     </div>
 
                     <p className="mt-4">
-                      Here you can use rows and columns to organize your footer
-                      content. Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit.
+                      Achiever Cloud Solution: Elevating Your Salesforce Journey
+                      with Expertise in Web & Game Development, and Digital
+                      Marketing Excellence.
                     </p>
                   </div>
                   {/* Grid column */}
@@ -173,17 +174,20 @@ const Footer = () => {
                     {/* Links */}
                     <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                     <p>
-                      <i className="fas fa-home me-3" /> New York, NY 10012, US
+                      <i className="fas fa-home me-3" /> Jaipur, Vaishali
+                      302021, Bharat
                     </p>
                     <p>
                       <i className="fas fa-envelope me-3" />
-                      info@example.com
+                      <a href="mailto:info@fantasykhiladi.com">
+                        info@fantasykhiladi.com
+                      </a>
                     </p>
                     <p>
-                      <i className="fas fa-phone me-3" /> + 01 234 567 88
+                      <i className="fas fa-phone me-3" /> +91 76653 00111
                     </p>
                     <p>
-                      <i className="fas fa-print me-3" /> + 01 234 567 89
+                      <i className="fas fa-print me-3" /> +91 7014578646
                     </p>
                   </div>
                   {/* Grid column */}
@@ -191,7 +195,6 @@ const Footer = () => {
                 {/* Grid row */}
               </div>
             </section>
-            {/* Section: Links  */}
             {/* Copyright */}
             <div className="text-center p-4">
               Created By : &nbsp;
@@ -204,10 +207,8 @@ const Footer = () => {
                 Pankaj Swami Vaishnav
               </a>
             </div>
-            {/* Copyright */}
           </footer>
         </div>
-        {/* Footer */}
       </section>
     </section>
   );

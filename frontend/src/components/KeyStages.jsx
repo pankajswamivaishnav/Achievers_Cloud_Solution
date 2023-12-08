@@ -9,10 +9,10 @@ import {
   salesforce,
   paymentGateway,
 } from "./temp_data/KeyStagesData";
+
+// Start Function
 const SolutionStrategy = () => {
   const location = useLocation();
-  //   const [currentURL, setCurrentURL] = useState("");
-  //   const [serviceData, setServiceData] = useState(null);
   const [serviceArrayData, setServiceArray] = useState([]);
 
   // Title ke basis pe service find karna
@@ -48,9 +48,8 @@ const SolutionStrategy = () => {
     const url = `${pathname}${search}${hash}`;
     const segments = url.split("/");
     const desiredContent = segments[1];
-    // setCurrentURL(desiredContent);
-    findServiceByTitle(desiredContent);
     // Find data based on current URL
+    findServiceByTitle(desiredContent);
   }, [location]);
 
   return (

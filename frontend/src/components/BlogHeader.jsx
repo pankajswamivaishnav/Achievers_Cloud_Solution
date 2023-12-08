@@ -2,7 +2,8 @@ import React from "react";
 import "./css/blogheader.css";
 // React Router Dom
 import { useLocation } from "react-router-dom";
-// import blogImg from "./images/blog_img.png";
+
+// Start Function
 const BlogHeader = () => {
   const location = useLocation();
   return (
