@@ -1,0 +1,21 @@
+.service-card-2-sec {
+    color: white;
+    padding: 2rem 0;
+}
+
+.service-card-small-div {
+    background-image: linear-gradient(to bottom right, rgb(25, 21, 63), rgb(35, 32, 65));
+    width: 15rem;
+    margin: 0.5rem 1rem;
+}
+
+.service-card-small-div-para {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.service-card2-button {
+    /* background-color: #09aff4; */
+    width: 12rem;
+    height: 3rem;
+}

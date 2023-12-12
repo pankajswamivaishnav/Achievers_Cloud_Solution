@@ -1,0 +1,19 @@
+.cta2-sec {
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.cta2-main-div {
+    border: 1px solid #09aff4;
+    padding: 3rem;
+    background-image: url("../../components/images/about-us-bg.png");
+}
+
+
+.cta2-btn {
+    width: 12rem;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+}

@@ -35,6 +35,13 @@
     /* Change to white on hover */
 }
 
+.key-stages-small {
+    font-weight: bold;
+    margin-left: 90%;
+    font-size: large;
+    color: rgb(116, 121, 126);
+}
+
 @media screen and (max-width: 768px) {
     .solu-strat-mainDiv {
         margin: 0.5rem;

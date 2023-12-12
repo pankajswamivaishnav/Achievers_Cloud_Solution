@@ -72,7 +72,7 @@ const digitalMarketing = [
     id: 3,
     title: "Content Marketing",
     description: `Content Marketing forms the backbone of our strategies, where we create and distribute valuable, relevant content to attract and engage audiences. By understanding your audience's needs, we craft compelling content across various platforms, nurturing brand authority and fostering long-term relationships. Our content strategies aim to captivate, educate, and inspire your target audience.`,
-    icon: "fas fa-file-alt",
+    icon: "fas fa-file-alt fa-2x",
   },
   {
     id: 4,

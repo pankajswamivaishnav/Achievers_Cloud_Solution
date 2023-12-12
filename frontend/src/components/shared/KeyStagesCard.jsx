@@ -5,6 +5,7 @@ const KeyStagesCard = (props) => {
     <div className="card key-stages-mainDiv col-xl-2 col-md-5 col-sm-10">
       {/* <div className="card solu-strat-mainDiv" style={{ width: "18rem" }}> */}
       {/* <img className="card-img-top" src="..." alt="Card imag cap" /> */}
+      <small className="key-stages-small">{props.service.id}</small>
       <i className={`${props.service.icon} key-stages-icon`}></i>
       <div className="card-body">
         <h5 className="card-title">{props.service.title}</h5>

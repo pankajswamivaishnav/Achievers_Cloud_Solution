@@ -6,6 +6,9 @@ const SinglePageWhyCard = (props) => {
       <div className="row mt-3 mb-3">
         <div className="col-xl-2 col-sm-12">
           <p className="points">0{props.service.id}.</p>
+          <p className="service-detail-single-page-point-para">
+            {/* <i class="fa-solid fa-square-check"></i> */}
+          </p>
         </div>
         <div className="col-xl-10 col-sm-12">
           <h3>{props.service.title}</h3>

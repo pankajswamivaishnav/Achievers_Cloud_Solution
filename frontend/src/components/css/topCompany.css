@@ -1,0 +1,36 @@
+.top-company-sec {
+    background-color: rgb(19, 17, 41);
+    color: white;
+    padding: 2rem 0;
+}
+
+.top-company-para {
+    font-size: larger;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.top-company-div img {
+    width: 15rem;
+}
+
+.top-company-div {
+    text-align: center;
+}
+
+.top-company-container-fluid {
+    background-image: linear-gradient(to bottom right, rgb(43, 36, 124), rgb(35, 32, 65));
+}
+
+.topCompanyRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-company-para i {
+    color: gold;
+}
+
+#top-company-google {
+    margin-top: -1.1rem;
+}

@@ -1,0 +1,23 @@
+.objective-sec {
+    color: white;
+    padding: 5rem 0;
+}
+
+.objective-container {
+    padding: 3rem;
+    /* background-image: url("../../components/images/about-us-bg.png"); */
+    background-image: linear-gradient(to bottom right, rgb(43, 36, 124), rgb(35, 32, 65));
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.objective-module-point {
+    display: flex;
+}
+
+.objective-module-point-para {
+    margin-left: 1rem;
+}
+
+.objective-module-point-i {
+    margin-top: 0.3rem;
+}

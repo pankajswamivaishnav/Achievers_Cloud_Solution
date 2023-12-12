@@ -63,7 +63,7 @@ const SolutionStrategy = () => {
           <h2 className="text-center">
             Driven Technologies: Achiever Cloud Solution's Strategy
           </h2>
-          <p className="text-center">
+          <p className="text-center fs-4">
             Achiever Cloud Solution: Transforming Visions into Digital
             Realities. Our streamlined process ensures precision and expertise
             from concept to launch

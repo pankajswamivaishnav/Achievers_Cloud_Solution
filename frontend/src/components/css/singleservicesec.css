@@ -40,6 +40,12 @@
     padding-bottom: 0.5rem;
 }
 
+.service-detail-single-page-point-para {
+    font-size: xx-large;
+    color: var(--special_text_color);
+    margin-left: 4rem;
+}
+
 .costum-list-container {
     background-color: #bdf3f8;
     padding: 4rem 2.5rem;
@@ -52,15 +58,14 @@
     color: white;
 }
 
-.single-service-left-box {
-    /* overflow-y: auto; */
-    /* max-height: 100vh; */
-}
+
 
 /* Hide scrollbar */
 /* .single-service-left-box::-webkit-scrollbar {
     width: 0;
 } */
+
+
 
 .single-service-right-box {
     overflow-y: hidden;

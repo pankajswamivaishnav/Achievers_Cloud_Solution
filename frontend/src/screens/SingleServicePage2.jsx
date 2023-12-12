@@ -10,6 +10,8 @@ import SolutionStrategy from "../components/SolutionStrategy";
 import singleServiceData from "../components/temp_data/singleServiceData";
 import SinglePageServices from "../components/SinglePageServices";
 import KeyStages from "../components/KeyStages";
+import TopCompany from "../components/TopCompany";
+import OurClients from "../components/OurClients";
 import ContactForm from "../components/ContactForm";
 
 // Start Function
@@ -30,6 +32,7 @@ const SingleServicePage2 = () => {
       <Cta />
       <SolutionStrategy />
       <KeyStages />
+      <OurClients />
       <SingleServiceSec
         id={selectedService.id}
         title={selectedService.title}
@@ -38,6 +41,7 @@ const SingleServicePage2 = () => {
         imgSrc2={selectedService.imgSrc2}
         imgSrc3={selectedService.imgSrc3}
       />
+      <TopCompany />
       <ContactForm />
       <Footer />
     </section>

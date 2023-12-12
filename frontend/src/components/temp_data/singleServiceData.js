@@ -30,7 +30,7 @@ const singleServiceData = [
     service: "Game Development Services",
     imgSrc1:
       "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399292.jpg?w=996&t=st=1698405364~exp=1698405964~hmac=4e3e443f14e0627f409f241ada528879e330acf1fc7acd7221592b6099dc1456",
-    title: "Cutting-Edge Software as a Service (SaaS) Products",
+    title: "Immersive Game Development Solutions",
     content:
       "Software as a Service (SaaS) products are cloud-based applications that provide users with access to software and services over the internet. They offer convenience, scalability, and cost-effectiveness. SaaS products serve a wide range of purposes, from project management to customer relationship management.",
     imgSrc2:
@@ -43,7 +43,7 @@ const singleServiceData = [
     service: "Salesforce Services",
     imgSrc1:
       "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?w=996&t=st=1698405445~exp=1698406045~hmac=40e23fe4db6e5b6236f0a5b5eccada47ee088859c8f54c3d8f3ed2ca0c490465",
-    title: "Innovative Mobile App Development Services",
+    title: "Streamlined Salesforce Implementations",
     content:
       "App development involves creating software applications specifically designed to run on mobile devices like smartphones and tablets. Whether for iOS or Android, app development plays a crucial role in the digital ecosystem, delivering convenience, entertainment, and functionality to users worldwide.",
     imgSrc2:
@@ -56,7 +56,7 @@ const singleServiceData = [
     service: "Payment Gateway Services",
     imgSrc1:
       "https://img.freepik.com/free-photo/top-view-tools-marketing_1134-83.jpg?w=996&t=st=1698405608~exp=1698406208~hmac=2cbaab3a12541415e2150111c1ebf1be6f13f90166026c6204c5b3bdcee768fc",
-    title: "Effective SEO Services for Online Visibility",
+    title: "Secure Payment Integration",
     content:
       "Search Engine Optimization (SEO) services are designed to improve a website's visibility on search engine results pages. By optimizing content, keywords, and various on-page and off-page elements, SEO services help websites rank higher and attract organic traffic.",
     imgSrc2:

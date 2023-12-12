@@ -1,0 +1,19 @@
+.our-clients-sec {
+    padding: 5rem 0;
+    background-color: rgb(19, 17, 41);
+    color: white;
+}
+
+.our-clients-container {
+    padding: 2rem;
+    background-image: linear-gradient(to bottom right, rgb(25, 21, 63), rgb(35, 32, 65));
+}
+
+.our-clients-logo {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.our-clients-logo img {
+    width: 10rem;
+}
