@@ -34,140 +34,144 @@ const webDevelopment = [
 const digitalMarketing = [
   {
     id: 1,
-    title: "SEO Services",
-    description: "Enhancing website visibility on search engines.",
+    title: "Certified Salesforce Experts",
+    description:
+      " Unparalleled expertise in Salesforce integration and management..",
   },
   {
     id: 2,
-    title: "Social Media Marketing",
-    description: "Promoting brands on various social media platforms.",
+    title: "Proven Track Record in Cloud Services",
+    description:
+      "Reliable and efficient cloud solutions with a history of success.",
   },
   {
     id: 3,
-    title: "Content Marketing",
-    description:
-      "Creating and distributing valuable, relevant content to attract and engage audiences.",
+    title: "Customized Solutions for Your Business",
+    description: "Integrating Salesforce with other business applications.",
   },
   {
     id: 4,
-    title: "Email Marketing",
-    description:
-      "Utilizing email campaigns to reach and engage with target audiences.",
+    title: "Tailored IT strategies to fit your unique business needs.",
+    description: "Providing expert guidance for Salesforce optimization.",
   },
   {
     id: 5,
-    title: "PPC Advertising",
-    description:
-      "Managing pay-per-click advertising campaigns for increased website traffic.",
+    title: "24/7 Technical Support",
+    description: "Round-the-clock assistance ensuring uninterrupted service",
   },
   {
     id: 6,
-    title: "Online Reputation Management",
-    description: "Monitoring and managing online reviews and brand perception.",
+    title: "Innovative Approach:",
+    description:
+      "Constantly evolving techniques to keep you ahead in the tech race.",
   },
 ];
 
 const gameDevelopment = [
   {
     id: 1,
-    title: "iOS App Development",
-    description: "Building iOS applications for Apple devices.",
+    title: "Certified Salesforce Experts",
+    description:
+      " Unparalleled expertise in Salesforce integration and management..",
   },
   {
     id: 2,
-    title: "Android App Development",
-    description: "Developing Android applications for mobile devices.",
+    title: "Proven Track Record in Cloud Services",
+    description:
+      "Reliable and efficient cloud solutions with a history of success.",
   },
   {
     id: 3,
-    title: "PC Game Development",
-    description: "Creating games for various computer platforms.",
+    title: "Customized Solutions for Your Business",
+    description: "Integrating Salesforce with other business applications.",
   },
   {
     id: 4,
-    title: "Console Game Development",
-    description: "Designing games for gaming consoles.",
+    title: "Tailored IT strategies to fit your unique business needs.",
+    description: "Providing expert guidance for Salesforce optimization.",
   },
   {
     id: 5,
-    title: "Virtual Reality (VR) Game Development",
-    description: "Developing immersive games for VR platforms.",
+    title: "24/7 Technical Support",
+    description: "Round-the-clock assistance ensuring uninterrupted service",
   },
   {
     id: 6,
-    title: "Augmented Reality (AR) Game Development",
-    description: "Building interactive games using AR technology.",
+    title: "Innovative Approach:",
+    description:
+      "Constantly evolving techniques to keep you ahead in the tech race.",
   },
 ];
 
 const salesforce = [
   {
     id: 1,
-    title: "Salesforce Implementation",
-    description: "Implementing Salesforce CRM for businesses.",
+    title: "Certified Salesforce Experts",
+    description:
+      " Unparalleled expertise in Salesforce integration and management..",
   },
   {
     id: 2,
-    title: "Salesforce Customization",
-    description: "Customizing Salesforce according to business needs.",
+    title: "Proven Track Record in Cloud Services",
+    description:
+      "Reliable and efficient cloud solutions with a history of success.",
   },
   {
     id: 3,
-    title: "Salesforce Integration",
+    title: "Customized Solutions for Your Business",
     description: "Integrating Salesforce with other business applications.",
   },
   {
     id: 4,
-    title: "Salesforce Consulting",
+    title: "Tailored IT strategies to fit your unique business needs.",
     description: "Providing expert guidance for Salesforce optimization.",
   },
   {
     id: 5,
-    title: "Salesforce Training",
-    description: "Offering training sessions for effective use of Salesforce.",
+    title: "24/7 Technical Support",
+    description: "Round-the-clock assistance ensuring uninterrupted service",
   },
   {
     id: 6,
-    title: "Salesforce Support",
+    title: "Innovative Approach:",
     description:
-      "Providing ongoing support and maintenance for Salesforce solutions.",
+      "Constantly evolving techniques to keep you ahead in the tech race.",
   },
 ];
 
 const paymentGateway = [
   {
     id: 1,
-    title: "Online Payment Integration",
-    description: "Integrating secure payment gateways into websites or apps.",
+    title: "Certified Salesforce Experts",
+    description:
+      " Unparalleled expertise in Salesforce integration and management..",
   },
   {
     id: 2,
-    title: "E-commerce Payment Solutions",
+    title: "Proven Track Record in Cloud Services",
     description:
-      "Providing seamless payment solutions for e-commerce platforms.",
+      "Reliable and efficient cloud solutions with a history of success.",
   },
   {
     id: 3,
-    title: "Mobile Wallet Integration",
-    description:
-      "Enabling mobile wallet payment options for enhanced user convenience.",
+    title: "Customized Solutions for Your Business",
+    description: "Integrating Salesforce with other business applications.",
   },
   {
     id: 4,
-    title: "International Payment Support",
-    description: "Facilitating international payment methods and currencies.",
+    title: "Tailored IT strategies to fit your unique business needs.",
+    description: "Providing expert guidance for Salesforce optimization.",
   },
   {
     id: 5,
-    title: "Subscription Billing Services",
-    description:
-      "Managing recurring billing cycles for subscription-based services.",
+    title: "24/7 Technical Support",
+    description: "Round-the-clock assistance ensuring uninterrupted service",
   },
   {
     id: 6,
-    title: "Fraud Protection Solutions",
+    title: "Innovative Approach",
     description:
-      "Implementing security measures to protect against online payment fraud.",
+      "Constantly evolving techniques to keep you ahead in the tech race.",
   },
 ];
 

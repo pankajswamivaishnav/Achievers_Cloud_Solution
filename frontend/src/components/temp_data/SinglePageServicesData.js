@@ -41,15 +41,39 @@ const webDevelopment = [
 const gameDevelopment = [
   {
     id: 1,
-    title: "iOS App Development",
-    description: `At the forefront of innovation, our iOS App Development services focus on crafting cutting-edge applications exclusively for Apple devices. From concept to deployment, we specialize in creating high-quality iOS applications that offer intuitive user experiences and seamless functionalities. Leveraging the latest iOS technologies and adhering to Apple's stringent standards, we ensure apps that stand out in the competitive App Store landscape.`,
-    icon: "fab fa-apple fa-2x",
+    title: "Mobile Game Development",
+    description: `Crafting engaging mobile games for diverse platforms to captivate and retain your audience.`,
+    icon: "fa-solid fa-gamepad fa-2x",
   },
   {
     id: 2,
-    title: "Android App Development",
-    description: `Delving into the realm of Android devices, our Android App Development services concentrate on creating dynamic applications tailored for diverse mobile devices. With a keen eye on user-centric designs and robust functionalities, we design and develop Android apps that resonate with your audience. Our expertise covers the spectrum, ensuring that your app aligns with the latest Android features and industry standards.`,
+    title: "PC & Console Game Development",
+    description: `Delivering high-quality gaming experiences on PC and consoles with stunning graphics and immersive gameplay.`,
     icon: "fab fa-android fa-2x",
+  },
+  {
+    id: 3,
+    title: "AR/VR Game Development",
+    description: `Pioneering in AR and VR technology to create interactive and immersive gaming experiences.`,
+    icon: "fa-solid fa-desktop fa-2x",
+  },
+  {
+    id: 4,
+    title: "Game Design & Artwork",
+    description: `Creating captivating game designs and artwork that bring your game's world to life.`,
+    icon: "fa-solid fa-paint-brush fa-2x",
+  },
+  {
+    id: 5,
+    title: "Multiplayer Game Solutions",
+    description: ` Developing robust multiplayer games with seamless connectivity and engaging social interactions.`,
+    icon: "fa-solid fa-users fa-2x",
+  },
+  {
+    id: 6,
+    title: "Game Testing & QA",
+    description: `Ensuring flawless gameplay with comprehensive game testing and quality assurance services`,
+    icon: "fa-solid fa-gamepad fa-2x",
   },
   // Add more objects for other game development services if needed...
 ];

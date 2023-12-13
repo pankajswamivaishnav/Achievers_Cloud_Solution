@@ -29,7 +29,7 @@ const App = () => {
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/:title/:id" element={<SingleServicePage2 />} />
           <Route path="/careers" element={<Career />} />
-          <Route path="/policies" element={<Policies />} />
+          <Route path="/privacy&policies" element={<Policies />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>

@@ -13,8 +13,9 @@ const ContactSec = () => {
               Get In Touch With Us
             </h2>
             <p className="text-center contact-sec-content fw-semibold">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              dolorum voluptates ipsum necessitatibus laudantium deserunt?
+              Ready to elevate your digital presence? Connect with our expert
+              team now for innovative web, mobile, and game development
+              solutions tailored to your needs
             </p>
             <div className="text-center">
               <button

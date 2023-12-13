@@ -16,9 +16,9 @@
 .service-box {
     position: relative;
     overflow: hidden;
+
     border: 1px solid #09aff4;
     border-radius: 0.5em;
-
     /* background: #007bff; */
     /* Initial background color (blue) */
     transition: background 0.3s;

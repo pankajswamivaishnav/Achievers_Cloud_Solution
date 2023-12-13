@@ -1,8 +1,7 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import ServiceCard from "./shared/ServiceCard";
 import ServiceCardData from "./temp_data/ServiceCardData";
-// React Router Dom
-import { useLocation } from "react-router-dom";
 import "./css/services.css";
 
 // Start Function
@@ -13,6 +12,7 @@ const Services = () => {
     location.pathname === "/service"
       ? ServiceCardData // If the path is "/home/service", don't slice
       : ServiceCardData.slice(0, 6); // Otherwise, slice the array
+
   return (
     <section className="services_sec">
       {/* Upper Div */}

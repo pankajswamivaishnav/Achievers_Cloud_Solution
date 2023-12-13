@@ -19,7 +19,7 @@ const TopCompany = () => {
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </p>
-                <p className="top-company-para">150K+ Reviews</p>
+                <p className="top-company-para">1050+ Reviews</p>
               </div>
             </div>
             <div className="col-xl-4">
@@ -32,7 +32,7 @@ const TopCompany = () => {
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </p>
-                <p className="top-company-para">500K+ Reviews</p>
+                <p className="top-company-para">500+ Reviews</p>
               </div>
             </div>
             <div className="col-xl-4">
@@ -45,7 +45,7 @@ const TopCompany = () => {
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </p>
-                <p className="top-company-para">375K+ Reviews</p>
+                <p className="top-company-para">700+ Reviews</p>
               </div>
             </div>
           </div>

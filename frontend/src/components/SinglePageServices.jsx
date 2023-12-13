@@ -43,6 +43,55 @@ const SinglePageServices = () => {
     setServiceArray(serviceArray);
   }
 
+  // Hooks
+  const [data, setData] = useState({
+    heading: "",
+    content: "",
+  });
+
+  // Heading And Content
+  function findData(heading) {
+    if (heading === "Web-Development") {
+      setData({
+        heading: "Driven Technologies: Achiever Cloud Solution's Strategy",
+        content:
+          "Achiever Cloud Solution: Transforming Visions into Digital Realities. Our streamlined process ensures precision and expertise from concept to launch",
+      });
+    } else if (heading === "Digital-Marketing") {
+      setData({
+        heading:
+          "Digital Marketing Strategies: Achiever Cloud Solution's Approach",
+        content:
+          "Achiever Cloud Solution employs cutting-edge digital marketing strategies to elevate your brand's online presence. Our comprehensive approach ensures precision and expertise at every step, from conceptualization to execution.",
+      });
+    } else if (heading === "Game-Development") {
+    } else if (heading === "Game-Development") {
+      setData({
+        heading: "Game Development Services: Elevating Your Business Goals",
+        content:
+          "At Achiever, our passion for Game Development drives us to create immersive and innovative gaming experiences. Specializing in everything from mobile to AR/VR games, we set new industry standards with each project",
+      });
+    } else if (heading === "Salesforce") {
+      setData({
+        heading:
+          "Empowering CRM: Achiever Cloud Solution's Salesforce Integration",
+        content:
+          "Achiever Cloud Solution: Optimizing Customer Relationships with Salesforce. Our integration services enhance CRM functionalities, leveraging Salesforce to streamline workflows and elevate customer experiences.",
+      });
+    } else if (heading === "Payment-Gateway") {
+      setData({
+        heading: "Payment Gateway Services at Achieve",
+        content:
+          "At Achiever, we specialize in providing secure and efficient Payment Gateway services, ensuring seamless financial transactions tailored to your business needs. Count on us for reliable payment solutions that elevate your business's digital transactions.",
+      });
+    } else {
+      setData({
+        heading: "",
+        content: "",
+      });
+    }
+  }
+
   useEffect(() => {
     // Get the current URL from the location object
     const { pathname, search, hash } = location;
@@ -51,6 +100,7 @@ const SinglePageServices = () => {
     const desiredContent = segments[1];
     // setCurrentURL(desiredContent);
     findServiceByTitle(desiredContent);
+    findData(desiredContent);
     // Find data based on current URL
   }, [location]);
 
@@ -66,13 +116,15 @@ const SinglePageServices = () => {
               </div>
               <div className="card-body card-custom-body">
                 <h2 className="card-title card-costum-title costum-page-service-title">
-                  Services We Offer To Achieve Your Business Goals
+                  {/* Services We Offer To Achieve Your Business Goals */}
+                  {data.heading}
                 </h2>
                 <p className=" fs-5 costum-hero-page-para">
-                  We are Achiever! Provide services from Salesforce to Game
+                  {/* We are Achiever! Provide services from Salesforce to Game
                   Development. Whether it is Web Development, Digital Marketing,
                   SEO Development, or a Payment Gateway for your business. We
-                  are here at your service.
+                  are here at your service. */}
+                  {data.content}
                 </p>
               </div>
             </div>

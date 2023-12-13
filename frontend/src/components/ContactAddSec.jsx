@@ -38,7 +38,7 @@ const ContactAddSec = () => {
                     <i class="fa-regular fa-2x fa-envelope px-3 py-2"></i>
                     <p className="pt-1 pe-2 costum-contact-add-sec-para">
                       <a href="mailto:youremail@example.com">
-                        youremail@example.com
+                        info@achievercloudsolution.com
                       </a>
                     </p>
                   </div>
@@ -48,7 +48,7 @@ const ContactAddSec = () => {
                   <div className="d-flex justify-content-center">
                     <i class="fa-solid fa-phone pe-3 py-2"></i>
                     <p className="pe-5 costum-contact-add-sec-number">
-                      0000000000
+                      +91 76653 00111
                     </p>
                   </div>
                 </div>

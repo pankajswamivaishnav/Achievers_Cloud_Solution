@@ -12,7 +12,10 @@ const Service = () => {
   return (
     <section className="service-section">
       <Navbar />
-      <ServiceHeader />
+      <ServiceHeader
+        service="All Services"
+        heading="We Are Provide These Are All Services"
+      />
       <Services />
       <Testimonial />
       <Why />

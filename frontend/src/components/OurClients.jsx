@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/ourClients.css";
 import zerodha from "./images/zerodha.png";
-import google from "./images/google.png";
+import dominoz from "./images/dominoz.png";
 import tata from "./images/tata.png";
 import zoho from "./images/zoho.png";
 const OurClients = () => {
@@ -15,10 +15,10 @@ const OurClients = () => {
           </h3>
           <div className="row ">
             <div className="col-xl-3 our-clients-logo">
-              <img src={tata} alt="company-img" className="img-fluid" />
+              <img src={tata} alt="company-img" className="img-fluid pt-2" />
             </div>
             <div className="col-xl-3 our-clients-logo">
-              <img src={google} alt="company-img" className="img-fluid" />
+              <img src={dominoz} alt="company-img" className="img-fluid pt-2" />
             </div>
             <div className="col-xl-3 our-clients-logo">
               <img src={zerodha} alt="company-img" className="img-fluid" />

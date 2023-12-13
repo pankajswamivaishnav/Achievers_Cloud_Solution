@@ -10,7 +10,7 @@ const Cta = () => {
           <div className="ctaMainDiv">
             <div className="cta-text">
               <h2 className="cta-heading">
-                Ready to Elevate Your Web Presence? Let's Get Started!.
+                Ready to Elevate Your Web Presence? Let's Get Started!
               </h2>
               <p className="cta-para">
                 Connect us now to hire Web Developers and bring your Web ideas

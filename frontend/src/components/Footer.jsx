@@ -161,10 +161,10 @@ const Footer = () => {
                     </p>
                     <p>
                       <a
-                        href="/policies"
+                        href="/privacy&policies"
                         className="text-reset text-decoration-none"
                       >
-                        Terms & Conditions
+                        Privacy & Policies
                       </a>
                     </p>
                   </div>

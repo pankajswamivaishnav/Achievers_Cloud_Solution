@@ -41,27 +41,27 @@ const ServiceCardData = [
       "Payment Gateway is a technology for you to accept payments from customers online using a credit/debit card or UPI ID. Nowadays a cashless payment is much more popular among the users. We at Achiever provide all sorts of Payment Gateway services so you can get your payment in a few seconds.",
     icon: "fas fa-chart-bar fa-2x", // Font Awesome class for bar chart icon
   },
-  {
-    id: 7,
-    title: "Data Analysis fa-2x",
-    description:
-      "Our data analysis services enable you to make data-driven decisions. We provide insights through data visualization, statistical analysis, and predictive modeling to help you achieve your business goals.",
-    icon: "fas fa-chart-bar fa-2x", // Font Awesome class for bar chart icon
-  },
-  {
-    id: 8,
-    title: "SaaS Product fa-2x",
-    description:
-      "We specialize in developing scalable Software as a Service (SaaS) products. Our solutions are designed to streamline your business operations and provide a seamless user experience.",
-    icon: "fas fa-cubes fa-2x", // Font Awesome class for cubes icon
-  },
-  {
-    id: 9,
-    title: "Apps Development fa-2x",
-    description:
-      "We specialize in developing scalable Software as a Service (SaaS) products. Our solutions are designed to streamline your business operations and provide a seamless user experience.",
-    icon: "fas fa-mobile-alt fa-2x", // Font Awesome class for cubes icon
-  },
+  // {
+  //   id: 7,
+  //   title: "Data Analysis fa-2x",
+  //   description:
+  //     "Our data analysis services enable you to make data-driven decisions. We provide insights through data visualization, statistical analysis, and predictive modeling to help you achieve your business goals.",
+  //   icon: "fas fa-chart-bar fa-2x", // Font Awesome class for bar chart icon
+  // },
+  // {
+  //   id: 8,
+  //   title: "SaaS Product fa-2x",
+  //   description:
+  //     "We specialize in developing scalable Software as a Service (SaaS) products. Our solutions are designed to streamline your business operations and provide a seamless user experience.",
+  //   icon: "fas fa-cubes fa-2x", // Font Awesome class for cubes icon
+  // },
+  // {
+  //   id: 9,
+  //   title: "Apps Development fa-2x",
+  //   description:
+  //     "We specialize in developing scalable Software as a Service (SaaS) products. Our solutions are designed to streamline your business operations and provide a seamless user experience.",
+  //   icon: "fas fa-mobile-alt fa-2x", // Font Awesome class for cubes icon
+  // },
 ];
 
 export default ServiceCardData;

@@ -3,7 +3,7 @@ import "./css/singlePageWhyCard.css";
 const SinglePageWhyCard = (props) => {
   return (
     <div className="col-xl-6 col-md-6 col-sm-12 service-detail-single-page">
-      <div className="row mt-3 mb-3">
+      <div className="row mb-1">
         <div className="col-xl-2 col-sm-12">
           <p className="points">0{props.service.id}.</p>
           <p className="service-detail-single-page-point-para">
