@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c20c9e5b.css",
-    "main.js": "/static/js/main.9c664c80.js",
+    "main.css": "/static/css/main.4f63aebc.css",
+    "main.js": "/static/js/main.963b8477.js",
     "static/media/contact-sec-bg.jpg": "/static/media/contact-sec-bg.8213a25d78e710976774.jpg",
     "static/media/hero-page-bg.png": "/static/media/hero-page-bg.fe28a7bff94cf553fb95.png",
     "static/media/about-us-bg.png": "/static/media/about-us-bg.fd9cdc3e90a67b8904e5.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.c1287b4b8a1cd081e8ad.png",
-    "static/media/web-dev-service.jpg": "/static/media/web-dev-service.0d839a5acbd31eddfd9b.jpg",
     "static/media/hero-img.png": "/static/media/hero-img.480df72b6a563a52271c.png",
     "static/media/why-choose-img.png": "/static/media/why-choose-img.47a8b86397334b472c92.png",
     "static/media/testimonial-bg.jpg": "/static/media/testimonial-bg.3d8393173f9f6d4565bb.jpg",
     "static/media/google.png": "/static/media/google.a77310cdb7f549ac8a71.png",
     "static/media/zoho.png": "/static/media/zoho.b952f7e40c23e587762a.png",
+    "static/media/dominoz.png": "/static/media/dominoz.97d45e5de3a575ae3eae.png",
     "static/media/404-img.png": "/static/media/404-img.b532c7b84ea29f135a16.png",
     "static/media/goodfirm.png": "/static/media/goodfirm.e7996fac72da93a10296.png",
     "static/media/office-img.avif": "/static/media/office-img.897c3060fa64654abb75.avif",
@@ -20,11 +20,11 @@
     "static/media/tata.png": "/static/media/tata.5cd643cfdb117ddeca30.png",
     "static/media/achiever-logo.png": "/static/media/achiever-logo.97589722a5d904d160f9.png",
     "index.html": "/index.html",
-    "main.c20c9e5b.css.map": "/static/css/main.c20c9e5b.css.map",
-    "main.9c664c80.js.map": "/static/js/main.9c664c80.js.map"
+    "main.4f63aebc.css.map": "/static/css/main.4f63aebc.css.map",
+    "main.963b8477.js.map": "/static/js/main.963b8477.js.map"
   },
   "entrypoints": [
-    "static/css/main.c20c9e5b.css",
-    "static/js/main.9c664c80.js"
+    "static/css/main.4f63aebc.css",
+    "static/js/main.963b8477.js"
   ]
 }
