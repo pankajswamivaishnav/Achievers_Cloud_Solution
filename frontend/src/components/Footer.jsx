@@ -26,7 +26,7 @@ const Footer = () => {
                   <a
                     className="btn text-white btn-floating m-1 footer-social-icon"
                     style={{ backgroundColor: "#1877f2" }}
-                    href="https://www.facebook.com/profile.php?id=100073330762098"
+                    href="https://www.facebook.com/AchieverCloudSolution"
                     role="button"
                   >
                     <i className="fab fa-facebook fa-lg" />
@@ -197,15 +197,14 @@ const Footer = () => {
             </section>
             {/* Copyright */}
             <div className="text-center p-4">
-              Created By : &nbsp;
-              <a
+              {/* <a
                 className="text-resetfw-bold developer-name"
                 href="https://www.linkedin.com/in/pankaj-swami-vaishnav/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                Pankaj Swami Vaishnav
-              </a>
+              > */}
+              Copyright &copy; 2021-2023 Achiever Cloud Soluion
+              {/* </a> */}
             </div>
           </footer>
         </div>

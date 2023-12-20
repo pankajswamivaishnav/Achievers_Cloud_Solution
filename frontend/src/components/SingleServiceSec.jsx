@@ -22,19 +22,20 @@ const SingleServiceSec = (props) => {
 
     // Choose category array based on category name
     switch (category) {
-      case "Web-Development":
+      // case "Web-Development":
+      case "web-development":
         serviceArray = webDevelopment;
         break;
-      case "Digital-Marketing":
+      case "digital-marketing":
         serviceArray = digitalMarketing;
         break;
-      case "Game-Development":
+      case "game-development":
         serviceArray = gameDevelopment;
         break;
-      case "Salesforce":
+      case "salesforce":
         serviceArray = salesforce;
         break;
-      case "Payment-Gateway":
+      case "payment-gateway":
         serviceArray = paymentGateway;
         break;
       default:

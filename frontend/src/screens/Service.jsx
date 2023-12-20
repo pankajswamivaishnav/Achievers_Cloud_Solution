@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ServiceHeader from "../components/ServiceHeader";
 import Services from "../components/Services";
@@ -9,6 +9,14 @@ import Why from "../components/Why";
 
 // Start Function
 const Service = () => {
+  useEffect(() => {
+    document.title = "services"; // Set the title when the component mounts
+    return () => {
+      // Optionally reset the title when the component unmounts
+      document.title =
+        " Achiever Cloud Solution: Mobile App & Game Development Company"; // Set your default title here
+    };
+  }, []);
   return (
     <section className="service-section">
       <Navbar />

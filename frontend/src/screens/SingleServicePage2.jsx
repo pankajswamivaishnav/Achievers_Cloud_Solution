@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // React Router Dom
-import { useParams } from "react-router-dom";
+
+// import { useParams, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import ServiceHeader from "../components/ServiceHeader";
 import SingleServiceSec from "../components/SingleServiceSec";
@@ -16,11 +18,25 @@ import ContactForm from "../components/ContactForm";
 
 // Start Function
 const SingleServicePage2 = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
+  const location = useLocation();
+  const [data, setData] = useState();
   // Get Single Data
+  // const selectedService = singleServiceData.find(
+  //   (service) => service.id === id
+  // );
   const selectedService = singleServiceData.find(
-    (service) => service.id === id
+    (service) => service.heading === data
   );
+
+  useEffect(() => {
+    // Get the current URL from the location object
+    const { pathname, search, hash } = location;
+    const url = `${pathname}${search}${hash}`;
+    const segments = url.split("/");
+    const desiredContent = segments[1];
+    setData(desiredContent);
+  }, [location]);
   return (
     <section className="single-service-page">
       <Navbar />

@@ -1,6 +1,7 @@
 const singleServiceData = [
   {
-    id: "1",
+    // id: "1",
+    heading: "web-development",
     service: "Web Development Services",
     title: "Professional Web Development Services",
     content:
@@ -13,7 +14,8 @@ const singleServiceData = [
       "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=996&t=st=1698401577~exp=1698402177~hmac=ebbee960bdc537cfc3b3254e309820f644bfbc52b2fe0a386e6abbb6bc4f5e24",
   },
   {
-    id: "2",
+    // id: "2",
+    heading: "digital-marketing",
     title: "Comprehensive Digital Marketing Solutions",
     service: "Digital Marketing Solutions",
     imgSrc1:
@@ -26,7 +28,8 @@ const singleServiceData = [
       "https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?size=626&ext=jpg&uid=R99523005&semt=ais",
   },
   {
-    id: "3",
+    // id: "3",
+    heading: "game-development",
     service: "Game Development Services",
     imgSrc1:
       "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399292.jpg?w=996&t=st=1698405364~exp=1698405964~hmac=4e3e443f14e0627f409f241ada528879e330acf1fc7acd7221592b6099dc1456",
@@ -39,7 +42,8 @@ const singleServiceData = [
       "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399295.jpg?size=626&ext=jpg&uid=R99523005&semt=ais",
   },
   {
-    id: "4",
+    // id: "4",
+    heading: "salesforce",
     service: "Salesforce Services",
     imgSrc1:
       "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?w=996&t=st=1698405445~exp=1698406045~hmac=40e23fe4db6e5b6236f0a5b5eccada47ee088859c8f54c3d8f3ed2ca0c490465",
@@ -52,7 +56,8 @@ const singleServiceData = [
       "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?size=626&ext=jpg&uid=R99523005&semt=ais",
   },
   {
-    id: "5",
+    // id: "5",
+    heading: "payment-gateway",
     service: "Payment Gateway Services",
     imgSrc1:
       "https://img.freepik.com/free-photo/top-view-tools-marketing_1134-83.jpg?w=996&t=st=1698405608~exp=1698406208~hmac=2cbaab3a12541415e2150111c1ebf1be6f13f90166026c6204c5b3bdcee768fc",
@@ -64,8 +69,10 @@ const singleServiceData = [
     imgSrc3:
       "https://img.freepik.com/free-photo/magnifying-glass-with-seo-concepts_1134-81.jpg?size=626&ext=jpg&uid=R99523005&semt=ais",
   },
+  // this object is important 6
   {
-    id: "6",
+    // id: "6",
+    // heading: "data-analysis",
     service: "Data Analysis Services",
     imgSrc1:
       "https://img.freepik.com/free-vector/data-inform-illustration-concept_114360-864.jpg?w=996&t=st=1698402938~exp=1698403538~hmac=0da2606ab4a46b5ab9d2a0cdb8b5a2c469de62c165532272cd9dbcd8ec4f9560",

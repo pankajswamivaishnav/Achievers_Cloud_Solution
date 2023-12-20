@@ -22,19 +22,20 @@ const SinglePageServices = () => {
 
     // Choose category array based on category name
     switch (category) {
-      case "Web-Development":
+      // case "Web-Development":
+      case "web-development":
         serviceArray = webDevelopment;
         break;
-      case "Digital-Marketing":
+      case "digital-marketing":
         serviceArray = digitalMarketing;
         break;
-      case "Game-Development":
+      case "game-development":
         serviceArray = gameDevelopment;
         break;
-      case "Salesforce":
+      case "salesforce":
         serviceArray = salesforce;
         break;
-      case "Payment-Gateway":
+      case "payment-gateway":
         serviceArray = paymentGateway;
         break;
       default:
@@ -51,34 +52,34 @@ const SinglePageServices = () => {
 
   // Heading And Content
   function findData(heading) {
-    if (heading === "Web-Development") {
+    if (heading === "web-development") {
       setData({
         heading: "Driven Technologies: Achiever Cloud Solution's Strategy",
         content:
           "Achiever Cloud Solution: Transforming Visions into Digital Realities. Our streamlined process ensures precision and expertise from concept to launch",
       });
-    } else if (heading === "Digital-Marketing") {
+    } else if (heading === "digital-marketing") {
       setData({
         heading:
           "Digital Marketing Strategies: Achiever Cloud Solution's Approach",
         content:
           "Achiever Cloud Solution employs cutting-edge digital marketing strategies to elevate your brand's online presence. Our comprehensive approach ensures precision and expertise at every step, from conceptualization to execution.",
       });
-    } else if (heading === "Game-Development") {
-    } else if (heading === "Game-Development") {
+      // } else if (heading === "Game-Development") {
+    } else if (heading === "game-development") {
       setData({
         heading: "Game Development Services: Elevating Your Business Goals",
         content:
           "At Achiever, our passion for Game Development drives us to create immersive and innovative gaming experiences. Specializing in everything from mobile to AR/VR games, we set new industry standards with each project",
       });
-    } else if (heading === "Salesforce") {
+    } else if (heading === "salesforce") {
       setData({
         heading:
           "Empowering CRM: Achiever Cloud Solution's Salesforce Integration",
         content:
           "Achiever Cloud Solution: Optimizing Customer Relationships with Salesforce. Our integration services enhance CRM functionalities, leveraging Salesforce to streamline workflows and elevate customer experiences.",
       });
-    } else if (heading === "Payment-Gateway") {
+    } else if (heading === "payment-gateway") {
       setData({
         heading: "Payment Gateway Services at Achieve",
         content:

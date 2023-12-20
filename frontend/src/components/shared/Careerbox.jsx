@@ -10,7 +10,22 @@ const Careerbox = (props) => {
             <i class="fa-solid fa-location-dot"></i>
             <span className="ps-2">{props.location}</span>
           </div>
-          <p className="career-box-para">{props.content}</p>
+
+          <div>
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <span className="ps-2">
+              <b>Experience: </b>
+              {props.exp}
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-file-lines"></i>
+            <span className="ps-2">
+              <b>Job Description: </b>
+              {props.description}
+            </span>
+            <div>{props.points}</div>
+          </div>
           <a href="mailto:hr@fantasykhiladi.com">
             <button className="costum-career-btn">Apply Now</button>
           </a>

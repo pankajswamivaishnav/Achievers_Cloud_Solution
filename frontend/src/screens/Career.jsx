@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import CareerHeader from "../components/CareerHeader";
 import CareerSec from "../components/CareerSec";
@@ -7,6 +7,14 @@ import "./css/career.css";
 
 // Start Function
 const Career = () => {
+  useEffect(() => {
+    document.title = "Career"; // Set the title when the component mounts
+    return () => {
+      // Optionally reset the title when the component unmounts
+      document.title =
+        " Achiever Cloud Solution: Mobile App & Game Development Company"; // Set your default title here
+    };
+  }, []);
   return (
     <div className="career-screen-sec">
       <Navbar />

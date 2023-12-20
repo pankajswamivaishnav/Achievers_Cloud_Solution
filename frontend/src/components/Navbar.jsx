@@ -85,7 +85,8 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/Web-Development/1"
+                        // href="/Web-Development/1"
+                        href="/web-development"
                       >
                         <i className="fa-solid fa-code"></i> Web Development
                       </a>
@@ -93,7 +94,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/Digital-Marketing/2"
+                        href="/digital-marketing"
                       >
                         <i className="fas fa-chart-line"></i> Digital Marketing
                       </a>
@@ -101,7 +102,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/Game-Development/3"
+                        href="/game-development"
                       >
                         <i className="fas fa-cubes"></i> Game Development
                       </a>
@@ -109,7 +110,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/Salesforce/4"
+                        href="/salesforce"
                       >
                         <i className="fas fa-mobile-alt"></i> Salesforce
                       </a>
@@ -117,7 +118,7 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/Payment-Gateway/5"
+                        href="/payment-gateway"
                       >
                         <i className="fas fa-search"></i> Payment Gateway
                       </a>

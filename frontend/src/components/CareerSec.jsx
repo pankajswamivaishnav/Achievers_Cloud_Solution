@@ -18,7 +18,9 @@ const CareerSec = () => {
                   key={data.id}
                   post={data.position}
                   location={data.location}
-                  content={data.content}
+                  description={data.description}
+                  exp={data.exp}
+                  points={data.points}
                 />
               );
             })}
