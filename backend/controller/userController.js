@@ -39,7 +39,7 @@ const sendUser = async (req, res) => {
       from: email,
       to: process.env.EMAIL,
       subject: subject,
-      text: message,
+      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
 
     transporter.sendMail(mailOptions, function (error, info) {

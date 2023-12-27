@@ -6,6 +6,7 @@ require("dotenv").config();
 
 // Port
 const port = process.env.PORT;
+// const port = 8000;
 
 // Route Defined
 const userRoute = require("./routes/userRoutes");
