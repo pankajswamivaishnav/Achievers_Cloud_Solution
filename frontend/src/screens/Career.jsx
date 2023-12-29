@@ -4,9 +4,10 @@ import CareerHeader from "../components/CareerHeader";
 import CareerSec from "../components/CareerSec";
 import Footer from "../components/Footer";
 import "./css/career.css";
-
+import { setMetadata } from "../MetaData";
 // Start Function
 const Career = () => {
+  setMetadata("career");
   useEffect(() => {
     document.title = "Career"; // Set the title when the component mounts
     return () => {

@@ -85,12 +85,30 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        // href="/Web-Development/1"
-                        href="/web-development"
+                        href="/salesforce"
                       >
-                        <i className="fa-solid fa-code"></i> Web Development
+                        <i className="fas fa-mobile-alt"></i> Salesforce
                       </a>
                     </li>
+                    {/* Game Development */}
+                    <li>
+                      <a
+                        className="dropdown-item costum-dropdown-item"
+                        href="/game-development"
+                      >
+                        <i className="fas fa-cubes"></i> Game Development
+                      </a>
+                    </li>
+                    {/* Payment Gateway */}
+                    <li>
+                      <a
+                        className="dropdown-item costum-dropdown-item"
+                        href="/payment-gateway"
+                      >
+                        <i className="fas fa-search"></i> Payment Gateway
+                      </a>
+                    </li>
+                    {/* Digital Marketing */}
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
@@ -102,25 +120,10 @@ const Navbar = () => {
                     <li>
                       <a
                         className="dropdown-item costum-dropdown-item"
-                        href="/game-development"
+                        // href="/Web-Development/1"
+                        href="/web-development"
                       >
-                        <i className="fas fa-cubes"></i> Game Development
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item costum-dropdown-item"
-                        href="/salesforce"
-                      >
-                        <i className="fas fa-mobile-alt"></i> Salesforce
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item costum-dropdown-item"
-                        href="/payment-gateway"
-                      >
-                        <i className="fas fa-search"></i> Payment Gateway
+                        <i className="fa-solid fa-code"></i> Web Development
                       </a>
                     </li>
                   </ul>

@@ -15,7 +15,7 @@ import KeyStages from "../components/KeyStages";
 import TopCompany from "../components/TopCompany";
 import OurClients from "../components/OurClients";
 import ContactForm from "../components/ContactForm";
-
+import { setMetadata } from "../MetaData";
 // Start Function
 const SingleServicePage2 = () => {
   // const { id } = useParams();
@@ -29,6 +29,29 @@ const SingleServicePage2 = () => {
     (service) => service.heading === data
   );
 
+  function setMeta(data) {
+    switch (data) {
+      case "web-development":
+        setMetadata("webDevelopment");
+        break;
+      case "game-development":
+        setMetadata("gameDevelopment");
+        break;
+      case "digitalMarketing":
+        setMetadata("digitalMarketing");
+        break;
+      case "salesforce":
+        setMetadata("salesforce");
+        break;
+      case "payment-gateway":
+        setMetadata("paymentGateway");
+        break;
+      default:
+        // Handle cases where data doesn't match any specific service
+        break;
+    }
+  }
+
   useEffect(() => {
     // Get the current URL from the location object
     const { pathname, search, hash } = location;
@@ -36,7 +59,9 @@ const SingleServicePage2 = () => {
     const segments = url.split("/");
     const desiredContent = segments[1];
     setData(desiredContent);
+    setMeta(desiredContent);
   }, [location]);
+
   return (
     <section className="single-service-page">
       <Navbar />

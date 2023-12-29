@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/aboutwhoweare.css";
-
+import whoWeAreImg from "./images/whoWeAre.png";
 // Start Function
 const AboutWhoWeAre = () => {
   return (
@@ -42,11 +42,12 @@ const AboutWhoWeAre = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
-              <img
+              {/* <img
                 src="https://img.freepik.com/free-vector/illustration-business-people_53876-44041.jpg?w=740&t=st=1700549246~exp=1700549846~hmac=93717b878b5846f61ecaf2af9d3f6a02278e3d235604415e4cc0219210653be3"
                 alt="random-img"
                 className="img-fluid who-we-are-img"
-              />
+              /> */}
+              <img src={whoWeAreImg} alt="who-we-are" />
             </div>
           </div>
         </div>

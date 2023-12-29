@@ -3,9 +3,10 @@ import Navbar from "../components/Navbar";
 import PoliciesHeader from "../components/PoliciesHeader";
 import PoliciesSec from "../components/PoliciesSec";
 import Footer from "../components/Footer";
-
+import { setMetadata } from "../MetaData";
 // Start Function
 const Policies = () => {
+  setMetadata("privacyPolicy");
   useEffect(() => {
     document.title = "Privacy & Policies"; // Set the title when the component mounts
     return () => {

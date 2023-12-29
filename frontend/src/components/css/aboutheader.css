@@ -35,7 +35,10 @@
     /* CSS for screens 576px or less */
     .costum-about-us-header-container {
         margin-bottom: 5em;
+    }
 
+    .main-div {
+        padding: 9rem 0 1rem 0;
     }
 }
 

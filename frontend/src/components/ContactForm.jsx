@@ -4,6 +4,7 @@ import "./css/contactform.css";
 import axios from "axios";
 // Define the URL of your backend API
 const backendURL = "https://achiever-cloud-it-solution.onrender.com";
+
 // const ContactForm = () => {
 //   const [data, setData] = useState({
 //     name: "",
@@ -146,6 +147,7 @@ const backendURL = "https://achiever-cloud-it-solution.onrender.com";
 
 // Start Function
 const ContactForm = () => {
+  // const [contactMetadata, setContactMetadata] = useState({});
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -187,6 +189,40 @@ const ContactForm = () => {
       console.log("not send data", e);
     }
   };
+
+  // useEffect(() => {
+  //   // Fetch data from the /contact endpoint using Axios
+  //   axios
+  //     .get("http://localhost:8000/contact") // Replace with your API URL
+  //     .then((response) => {
+  //       // Set fetched metadata in state
+  //       setContactMetadata(response.data.metadata);
+  //       // function set Meta Data
+  //       // Update metadata in the head section
+  //       const setMetadata = () => {
+  //         document.title = response.data.metadata.title || "Default Title";
+  //         const metaDescriptionTag = document.querySelector(
+  //           'meta[name="description"]'
+  //         );
+  //         if (metaDescriptionTag) {
+  //           metaDescriptionTag.setAttribute(
+  //             "content",
+  //             response.data.metadata.description || ""
+  //           );
+  //         }
+  //         // Update other meta tags similarly
+  //       };
+
+  //       setMetadata(); // Call setMetadata initially
+
+  //       // Call setMetadata whenever contactMetadata changes
+  //       return setMetadata;
+  //     })
+  //     .catch((error) => {
+  //       // Handle error if fetch fails
+  //       console.error("Error fetching contact metadata:", error);
+  //     });
+  // }, [contactMetadata]); // Run this effect only once on component mount
 
   return (
     <section className="costum-contact-form">

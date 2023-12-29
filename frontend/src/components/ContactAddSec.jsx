@@ -1,5 +1,5 @@
 import React from "react";
-import officeImg from "../components/images/office-img.avif";
+import officeImg from "../components/images/office-img.jpg";
 import "./css/contactaddsec.css";
 
 // Start Function
@@ -37,7 +37,7 @@ const ContactAddSec = () => {
                   <div className="d-flex justify-content-center">
                     <i class="fa-regular fa-2x fa-envelope px-3 py-2"></i>
                     <p className="pt-1 pe-2 costum-contact-add-sec-para">
-                      <a href="mailto:youremail@example.com">
+                      <a href="mailto:info@achievercloudsolution.com">
                         info@achievercloudsolution.com
                       </a>
                     </p>

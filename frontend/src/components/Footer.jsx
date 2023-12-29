@@ -99,7 +99,7 @@ const Footer = () => {
                     <h6 className="text-uppercase fw-bold mb-4">Services</h6>
                     <p>
                       <a
-                        href="/Salesforce/4"
+                        href="/salesforce"
                         className="text-reset text-decoration-none"
                       >
                         Salesforce
@@ -107,7 +107,7 @@ const Footer = () => {
                     </p>
                     <p>
                       <a
-                        href="/Web-Development/1"
+                        href="/web-development"
                         className="text-reset text-decoration-none"
                       >
                         Web Development
@@ -115,7 +115,7 @@ const Footer = () => {
                     </p>
                     <p>
                       <a
-                        href="/Game-Development/3"
+                        href="/game-development"
                         className="text-reset text-decoration-none"
                       >
                         Game Development
@@ -123,7 +123,7 @@ const Footer = () => {
                     </p>
                     <p>
                       <a
-                        href="/Digital-Marketing/2"
+                        href="/digital-marketing"
                         className="text-reset text-decoration-none"
                       >
                         Digital Marketing

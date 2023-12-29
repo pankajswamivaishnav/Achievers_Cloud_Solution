@@ -81,7 +81,7 @@
 
     .costum-page-service-title {
         font-weight: bold;
-        letter-spacing: var(--special_letter_spacing);
+        /* letter-spacing: var(--special_letter_spacing); */
     }
 
 }

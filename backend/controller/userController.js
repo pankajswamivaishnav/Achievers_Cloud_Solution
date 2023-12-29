@@ -58,5 +58,16 @@ const sendUser = async (req, res) => {
   }
 };
 
+// const getContactData = (req, res) => {
+//   const contactMetadata = {
+//     title: "Contact Us | Achiever Cloud Solution",
+//     description: "Get in touch with Achiever Cloud Solution for any queries...",
+//     keywords: "Contact us, Achiever Cloud Solution contact, get in touch...",
+//     // Add other relevant metadata
+//   };
+
+//   res.json({ metadata: contactMetadata });
+// };
+
 // Export Method
-module.exports = sendUser;
+module.exports = { sendUser };

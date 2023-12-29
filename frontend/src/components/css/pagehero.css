@@ -100,6 +100,7 @@
     .image-container img {
         transform: scale(0.9);
         margin-top: -1.5em;
+        margin-bottom: 1.5em;
     }
 
     .hero_sec {
@@ -124,6 +125,12 @@
     .same-property-sub-heading-page-hero {
         font-size: large;
         font-weight: bold !important;
+    }
+
+    .wave-underline::before {
+        display: none;
+        /* content: "";
+        position: fixed; */
     }
 
 }

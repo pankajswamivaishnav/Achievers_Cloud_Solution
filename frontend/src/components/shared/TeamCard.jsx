@@ -31,9 +31,7 @@ const TeamCard = (props) => {
           </li>
         </ul>
         <div className="image">
-          <a href="/">
-            <img src={props.imgSrc} alt={props.position + "Image"} />
-          </a>
+          <img src={props.imgSrc} alt={props.position + "Image"} />
         </div>
         <div className="lower-content">
           <h3>

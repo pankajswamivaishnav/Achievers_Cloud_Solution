@@ -18,9 +18,9 @@ const Cta = () => {
               </p>
             </div>
             <div className="cta-btn-box">
-              <a href="/Web-Development/1">
+              <a href="/contact-us">
                 <button className="btn btn-info cta-btn">
-                  Connect With Us
+                  <i class="fa-solid fa-mobile"></i>&nbsp; Connect With Us
                 </button>
               </a>
             </div>

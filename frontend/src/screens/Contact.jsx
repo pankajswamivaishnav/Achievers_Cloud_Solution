@@ -4,9 +4,10 @@ import ContactHeader from "../components/ContactHeader";
 import ContactAddSec from "../components/ContactAddSec";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
-
+import { setMetadata } from "../MetaData";
 // Start Function
 const Contact = () => {
+  setMetadata("contact");
   useEffect(() => {
     document.title = "Contact-Us"; // Set the title when the component mounts
     return () => {

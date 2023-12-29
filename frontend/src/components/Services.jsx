@@ -52,9 +52,10 @@ const Services = () => {
       <div className="lowerDiv container-fluid">
         <div className="container">
           <div className="row">
-            {serviceCards.map((data) => {
+            {serviceCards.map((data, index) => {
               return (
                 <ServiceCard
+                  key={index}
                   id={data.id}
                   icon={data.icon}
                   title={data.title}
