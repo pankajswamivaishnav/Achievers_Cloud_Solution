@@ -36,8 +36,8 @@ const sendUser = async (req, res) => {
     });
 
     var mailOptions = {
-      from: email,
-      to: process.env.EMAIL,
+      from: process.env.EMAIL,
+      to: email,
       subject: subject,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
